@@ -1,0 +1,55 @@
+.navbar{
+    color: var(--textPrimary) !important;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.color-primary{
+    background-color: var(--primary);
+}
+.color-secondary{
+    background-color: var(--secondary);
+}
+.navbar-collapse{
+    display: flex;
+    flex-basis: auto;
+}
+.navbar-nav{
+    flex-direction: row;
+}
+.navbar-brand{
+    padding-left: 40px;
+}
+.navbar-item{
+    padding: 15px;
+    position: relative;
+}
+.nav-link{
+    align-self: center;
+    align-items: center;
+    color: var(--textPrimary) !important;
+    font-family: "Roboto",sans-serif;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color:  var(--textHover)!important;
+    text-decoration: none;
+}
+.nav-link-button{
+    background-color: transparent;
+    border: none;
+}
+.nav-link-button:focus{
+    outline: none;
+}
+.dropdown{
+    align-items: flex-start;
+}
+.dropdown-menu{
+    position: absolute !important;
+    border: none;
+}
+.dropdown-item{
+    color: var(--textPrimary);
+    font-family: "Roboto",sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.bg-dark{
+    background-color: var(--tertiary) !important;
+    padding: 50px;
+}
+.btn-primary{
+    padding: 5px 25px;
+    background-color: var(--primary);
+    border: none;
+}
+.btn-primary:hover{
+    padding: 5px 25px;
+    background-color: var(--primary);
+    border: none;
+    outline: none;
+}
+.btn-primary:focus{
+    padding: 5px 25px;
+    background-color: var(--primary);
+    border: none;
+    outline: none;
+}
+.footer-section h4{
+    padding: 20px;
+}

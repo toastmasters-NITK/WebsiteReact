@@ -1,0 +1,14 @@
+:root {
+    /* Primary stands for navbar background 
+    secondary is the main background colour
+    tertiary is the color for the footer
+    */
+    --primary:#772432;
+    --secondary:#004165;
+    --tertiary:#F2DF74;
+    --textPrimary:white;
+    --textSecondary:black;
+    --textTertiary:#4c4c4c;
+    --textHover:rgba(255, 255, 255, 0.5);
+    --buttonTextColor:#004165;
+}
