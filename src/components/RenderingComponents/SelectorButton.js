@@ -8,7 +8,7 @@ class SelectorButton extends React.Component{
                     type="radio" 
                     name="shuffle-filter" 
                     value={this.props.value} 
-                    defaultchecked={this.props.defaultChecked?true:null} 
+                    defaultChecked={this.props.defaultChecked?true:null} 
                     onClick={this.props.onClick}
                 />
                 {this.props.buttonText}
