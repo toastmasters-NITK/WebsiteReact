@@ -1,0 +1,19 @@
+.selector{
+    padding: 30px 0px;
+}
+
+.selector .btn{
+    text-transform: capitalize;
+    width: 380px !important;
+    font-size: 18px;
+    font-family: 'Playfair Display',serif;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+.selector .btn.active{
+    background-color: var(--secondary) !important;
+    box-shadow: none !important;
+}
+.selector .btn:hover{
+    background-color: var(--secondary) !important;
+}

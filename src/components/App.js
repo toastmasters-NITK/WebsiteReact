@@ -23,7 +23,7 @@ class App extends React.Component{
         return(
             <Router history={history}>
                 <Header/>
-                <div>
+                    <div>
                         <Route path='/' exact component={HomeComponent}/>
                         <Route path='/about' exact component={AboutUsComponent}/>
                         <Route path='/awards'exact component={AwardsComponent}/>

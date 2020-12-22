@@ -33,6 +33,7 @@ class Content extends React.Component{
                             <h2 class="section-title">{this.props.header}</h2>
                             <p>{this.props.content}</p>
                             {this.urlSection}
+                            {this.props.children}
                         </div>
                     </div>
                 </div>

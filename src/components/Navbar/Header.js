@@ -17,13 +17,13 @@ class Header extends React.Component{
 
     NavLinkListItemBeforeMedia=NavLinkListDataBeforeMedia.map(({content, relativeUrl})=>{
         return (
-            <NavLinkListItem content={content} relativeUrl={relativeUrl}/>
+            <NavLinkListItem key={content} content={content} relativeUrl={relativeUrl}/>
         );
     });
 
     NavLinkListItemAfterMedia=NavLinkListDataAfterMedia.map(({content, relativeUrl})=>{
         return (
-            <NavLinkListItem content={content} relativeUrl={relativeUrl}/>
+            <NavLinkListItem key={content} content={content} relativeUrl={relativeUrl}/>
         );
     });
 
@@ -56,17 +56,17 @@ class Header extends React.Component{
     render(){
         return(
                 <Navbar sticky='top' className={"navbar "+this.state.colorRef}>
-                    <Link class="navbar-brand font-tertiary h3" to="/">
+                    <Link className="navbar-brand font-tertiary h3" to="/">
                         <img id="nav-img" src={this.state.navImage} alt="Myself" width={this.state.width} height="90"/>
                     </Link>
-                    <div class='navbar-collapse text-center'>
-                        <ul class='navbar-nav ml-auto'>
+                    <div className='navbar-collapse text-center'>
+                        <ul className='navbar-nav ml-auto'>
                             {this.NavLinkListItemBeforeMedia}
-                            <li class='navbar-item'>
-                                    <button class="nav-link nav-link-button dropdown-toggle center" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <li className='navbar-item'>
+                                    <button className="nav-link nav-link-button dropdown-toggle center" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         MEDIA
                                     </button>
-                                    <div ref={this.dropDownMenuRef} id="dropdownNavMenu" class={"dropdown-menu "+this.state.colorRef} aria-labelledby="dropdownMenuButton">
+                                    <div ref={this.dropDownMenuRef} id="dropdownNavMenu" className={"dropdown-menu "+this.state.colorRef} aria-labelledby="dropdownMenuButton">
                                         <Link className='dropdown-item' to='/media/blog'>
                                             Blogs
                                         </Link>

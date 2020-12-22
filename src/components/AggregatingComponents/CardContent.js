@@ -6,7 +6,7 @@ class CardContent extends React.Component{
     render(){
         const CardRenderList=this.props.cardData.map(({Title,Description,url,image})=>{
             return (
-                <Card title={Title} desc={Description} url={url} img={image} />
+                <Card key={Title} title={Title} desc={Description} url={url} img={image} />
             );
         });
         return(

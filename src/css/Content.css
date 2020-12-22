@@ -1,6 +1,9 @@
 .section .content{
     padding: 80px 0px;
 }
+.content .selector .btn{
+    color: white;
+}
 .section-title{
     font-size: 60px;
     font-family: 'Roboto',sans-serif;
