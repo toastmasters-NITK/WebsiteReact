@@ -5,7 +5,6 @@ import '../../css/Content.css';
 class Content extends React.Component{
 
     getUrlData=()=>{
-        console.log(this.props.relativeUrl)
         if(this.props.relativeUrl!==undefined){
             if(this.props.urlText!==""){
                 return(
