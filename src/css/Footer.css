@@ -19,6 +19,12 @@
     border: none;
     outline: none;
 }
+
+.footer-section .section{
+    padding: 0px 150px;
+}
+
+
 .footer-section h4{
     padding: 20px;
 }
