@@ -3,6 +3,7 @@ import React from 'react';
 import PageTitle from '../RenderingComponents/PageTitle';
 import Content from '../RenderingComponents/Content';
 import Selector from '../AggregatingComponents/Selector';
+import TextnImg from '../RenderingComponents/TextnImg';
 
 import {AboutButtonData,AboutTextData,AboutContentData} from '../../constants';
 class AboutUsComponent extends React.Component{
@@ -20,6 +21,7 @@ class AboutUsComponent extends React.Component{
                 <PageTitle>
                     About Us
                 </PageTitle>
+                <TextnImg />
                 <Content 
                     header={AboutContentData.header} 
                     content={AboutContentData.content}

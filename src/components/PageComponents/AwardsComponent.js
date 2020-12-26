@@ -1,6 +1,8 @@
 import React from 'react';
 
 import PageTitle from '../RenderingComponents/PageTitle';
+import TextnImg from '../RenderingComponents/TextnImg';
+
 class AwardsComponent extends React.Component{
     render(){
         return(
@@ -8,6 +10,7 @@ class AwardsComponent extends React.Component{
                 <PageTitle>
                     Awards
                 </PageTitle>
+                <TextnImg/>
             </div>
         );
     }
