@@ -7,17 +7,17 @@ class OurTeamItem extends React.Component{
     
     render(){
         return(
-        <div class="team-member style4">
-            <div class="avatar">
-            <img src={this.props.image} width="100"/>
-        </div>
-        <div class="info">
-            <div class="name">
-            <a href={this.props.url} target="_blank">{this.props.name}​​</a>
+        <div className="team-member style4">
+            <div className="avatar">
+                <img src={this.props.image}/>
             </div>
-            <div class="option">{this.props.Description}​​
+            <div className="info">
+                <div className="name">
+                    <a href={this.props.url} target="_blank">{this.props.Name}​​</a>
+                </div>
+                <div className="option">{this.props.Description}​​
+                </div>
             </div>
-        </div>
         </div>
         );
     }

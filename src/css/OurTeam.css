@@ -306,6 +306,11 @@
 	display: inline-block;
 }
 
+.team-member .avatar img{
+	width: 110px;
+	height: 110px;
+}
+
 .team-member .avatar:after {
 	content: '';
 	position: absolute;

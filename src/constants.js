@@ -33,17 +33,18 @@ export const AboutButtonData=
     ]
 };
 
-
-
-
-
-export const OurTeamData=[
-    {
+export const OurTeamData={
+    Content:{
+        Header:"Our Team",
+        Description:"We pride ourselves on providing superior service but you don't just have to take our word for it."
+    },
+    President:{
         Name:"TM Supritha Harishankar",
         Description:"President",
         url:"https://www.linkedin.com/in/suprithahs",
         image:presi
     },
+    OurTeam:[
     {
         Name:"TM Kartik Nayak",
         Description:"Vice President Education",
@@ -120,20 +121,7 @@ export const OurTeamData=[
 
 
 
-]    
-
-
-
-
-
-
-
-
-
-
-
-
-
+]};
 
 export const AboutTextData={
     filterProperty:"filterProp",
