@@ -3,6 +3,7 @@ import React from 'react';
 import PageTitle from '../RenderingComponents/PageTitle';
 import Content from '../RenderingComponents/Content';
 import Selector from '../AggregatingComponents/Selector';
+import OurTeam from '../AggregatingComponents/OurTeam';
 
 import {AboutButtonData,AboutTextData,AboutContentData} from '../../constants';
 class AboutUsComponent extends React.Component{
@@ -31,6 +32,7 @@ class AboutUsComponent extends React.Component{
                         components={AboutComponents}
                     />
                 </Content>
+                <OurTeam/>
             </div>
         );
     }

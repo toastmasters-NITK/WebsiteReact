@@ -1,4 +1,18 @@
 import logo from '../src/navLogoUp.png';
+import presi from '../src/images/TM Supritha.jpeg';
+import vpe from '../src/images/TM Kartik.JPG';
+import avpe from '../src/images/TM Dwija.JPG';
+import vpm from '../src/images/TM Harsha.png';
+import avpm from '../src/images/TM Kruthika.JPG';
+import vppr from '../src/images/TM Sharan.JPG';
+import avppr from '../src/images/TM Adithya K.JPG';
+import avppr1 from '../src/images/TM Rahul.jpeg';
+import sec from '../src/images/TM Pranav.jpeg';
+import jsec1 from '../src/images/TM Sahana.JPG';
+import jsec2 from '../src/images/TM Achintya.JPG';
+import treas from '../src/images/TM Rashmi.JPG';
+import saa from '../src/images/TM Riya.JPG';
+
 
 //#region AboutData
 export const AboutButtonData=
@@ -18,6 +32,109 @@ export const AboutButtonData=
     }
     ]
 };
+
+
+
+
+
+export const OurTeamData=[
+    {
+        Name:"TM Supritha Harishankar",
+        Description:"President",
+        url:"https://www.linkedin.com/in/suprithahs",
+        image:presi
+    },
+    {
+        Name:"TM Kartik Nayak",
+        Description:"Vice President Education",
+        url:"https://www.linkedin.com/in/kartik-nayak-2b120313b",
+        image:vpe
+    },
+    {
+        Name:"TM Dwija Bagwe",
+        Description:"Assosiate Vice President Education",
+        url:"https://www.linkedin.com/in/dwijab",
+        image:avpe
+    },
+    {
+        Name:"TM Harsha DSouza",
+        Description:"Vice President Membership",
+        url:"https://www.linkedin.com/in/harsha-dsouza-1254221a9/",
+        image:vpm
+    },
+    {
+        Name:"TM Kruthika K Sudhama",
+        Description:"Assosicate Vice President Membership",
+        url:"https://www.linkedin.com/in/kruthika-ksudhama-a1b4291a9",
+        image:avpm
+    },
+    {
+        Name:"TM Sharan Venkatesh",
+        Description:"Vice President Public Relations",
+        url:"https://www.linkedin.com/in/sharan-venkatesh-7247a016b",
+        image:vppr
+    },
+    {
+        Name:"TM Adithya Kannan",
+        Description:"Assosiate Vice President Public Relations",
+        url:"https://www.linkedin.com/in/adithyakannan",
+        image:avppr
+    },
+    {
+        Name:"TM Rahul Hanchate",
+        Description:"Assosiate Vice President Public Relations",
+        url:"https://www.linkedin.com/in/rmhanchate/",
+        image:avppr1
+    },
+    {
+        Name:"TM Pranav Krishna",
+        Description:"Secretary",
+        url:"https://www.linkedin.com/in/pranavkrishna99/",
+        image:sec
+    },
+    {
+        Name:"TM Sahana Bhandari",
+        Description:"Joint Secretary",
+        url:"https://www.linkedin.com/in/sahana-praveen-bhandari-b400741a7",
+        image:jsec1
+    },
+    {
+        Name:"TM Achintya Thantry",
+        Description:"Joint Secretary",
+        url:"http://www.linkedin.com/in/achintya-thantry-aa1689183",
+        image:jsec2
+    },
+    {
+        Name:"TM Rashmi Raj",
+        Description:"Treasurer",
+        url:"https://www.linkedin.com/in/rashmi-raj-990425182",
+        image:treas
+    },
+    {
+        Name:"TM Riya Shah",
+        Description:"Sergeant At Arms",
+        url:"https://www.linkedin.com/in/riya-shah-b086b7184",
+        image:saa
+    }
+
+
+
+
+]    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export const AboutTextData={
     filterProperty:"filterProp",
     data:[
