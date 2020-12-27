@@ -15,7 +15,7 @@ class Card extends React.Component{
     }
 
     render(){
-        const UrlSection=this.props.url!==null?(
+        const UrlSection=this.props.url!==undefined?(
                 <a href={this.props.url} class="btn btn-xs btn-primary">
                     Read More
                 </a>
@@ -24,7 +24,7 @@ class Card extends React.Component{
             <div class="col-lg-4 col-sm-6 mb-4" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
                 <article>
                     <div className={this.state.cardClass}>
-                        <img class="rounded card-img-top" src={this.props.img} alt="post-thumb"/>
+                        <img class="rounded card-img-top" src={this.props.img}/>
                         <div class="card-body">
                             <h4 class="card-title"> 
                                 {this.props.title}

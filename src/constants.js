@@ -498,9 +498,7 @@ export const ResourceCardData=
 };
 //#endregion
 
-
-//Awards page data
-
+//#region AwardsPage
 export const AwardsData={
     title:"First Club in the District to bag 16/16 DCP Points",
     text: 
@@ -524,3 +522,4 @@ export const AwardsData={
     imgHeading2:"Published on May 26",
     img: presi
 };
+//#endregion
