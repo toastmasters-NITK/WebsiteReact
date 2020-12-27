@@ -1,12 +1,11 @@
-import { extend } from 'jquery';
 import React from 'react';
-import "../../css/TextnImg.css";
+import "../../css/ImageAndContent.css";
 
-class TextnImg extends React.Component {
+class ImageAndContent extends React.Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="imageAndContent container">
                 <div className="title">
                     {this.props.title}
                 </div>
@@ -29,4 +28,4 @@ class TextnImg extends React.Component {
 
 };
 
-export default TextnImg;
+export default ImageAndContent;

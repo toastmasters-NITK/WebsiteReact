@@ -1,4 +1,4 @@
-.title{
+.imageAndContent .title{
     font-size: 60px;
     font-family: 'Roboto',sans-serif;
     font-weight: 900;
@@ -7,7 +7,7 @@
     color: var(--textTertiary);
 }
 
-.content{
+.imageAndContent .content{
     font-weight: 400;
     color: var(--textTertiary);
     font-size: 15px;
@@ -15,20 +15,20 @@
     font-family: "Roboto", sans-serif;
 }
 
-.image-block{
+.imageAndContent .image-block{
     text-align: center;
 }
 
-img{
+.imageAndContent img{
     max-width: 80%;
     height: auto;
 }
 
-.heading1{
+.imageAndContent .heading1{
     font-size: 22px;
     font-weight: bold;
 }
-.container{
+.imageAndContent .container{
     margin-top:5%;
     margin-bottom: 5%;
 }

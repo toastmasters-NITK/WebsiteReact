@@ -3,9 +3,8 @@ import React from 'react';
 import PageTitle from '../RenderingComponents/PageTitle';
 import Content from '../RenderingComponents/Content';
 import Selector from '../AggregatingComponents/Selector';
-import TextnImg from '../RenderingComponents/TextnImg';
+import ImageAndContent from '../RenderingComponents/ImageAndContent';
 import OurTeam from '../AggregatingComponents/OurTeam';
-
 
 import {AboutButtonData,AboutTextData,AboutContentData, AboutUsPresident} from '../../constants';
 class AboutUsComponent extends React.Component{
@@ -23,7 +22,7 @@ class AboutUsComponent extends React.Component{
                 <PageTitle>
                     About Us
                 </PageTitle>
-                <TextnImg 
+                <ImageAndContent 
                     title={AboutUsPresident.title}
                     text={AboutUsPresident.text} 
                     heading1={AboutUsPresident.imgHeading1} 
