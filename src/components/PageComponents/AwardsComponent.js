@@ -2,6 +2,7 @@ import React from 'react';
 
 import PageTitle from '../RenderingComponents/PageTitle';
 import TextnImg from '../RenderingComponents/TextnImg';
+import {AwardsData} from '../../constants';
 
 class AwardsComponent extends React.Component{
     render(){
@@ -10,7 +11,13 @@ class AwardsComponent extends React.Component{
                 <PageTitle>
                     Awards
                 </PageTitle>
-                <TextnImg/>
+                <TextnImg 
+                    title={AwardsData.title}
+                    text={AwardsData.text} 
+                    heading1={AwardsData.imgHeading1} 
+                    heading2={AwardsData.imgHeading2}
+                    image={AwardsData.img}
+                />
             </div>
         );
     }

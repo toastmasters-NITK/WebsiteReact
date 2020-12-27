@@ -6,7 +6,8 @@ import Selector from '../AggregatingComponents/Selector';
 import TextnImg from '../RenderingComponents/TextnImg';
 import OurTeam from '../AggregatingComponents/OurTeam';
 
-import {AboutButtonData,AboutTextData,AboutContentData} from '../../constants';
+
+import {AboutButtonData,AboutTextData,AboutContentData, AboutUsPresident} from '../../constants';
 class AboutUsComponent extends React.Component{
 
     render(){
@@ -22,7 +23,13 @@ class AboutUsComponent extends React.Component{
                 <PageTitle>
                     About Us
                 </PageTitle>
-                <TextnImg />
+                <TextnImg 
+                    title={AboutUsPresident.title}
+                    text={AboutUsPresident.text} 
+                    heading1={AboutUsPresident.imgHeading1} 
+                    heading2={AboutUsPresident.imgHeading2}
+                    image={AboutUsPresident.img}
+                    />
                 <Content 
                     header={AboutContentData.header} 
                     content={AboutContentData.content}

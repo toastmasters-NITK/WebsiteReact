@@ -33,6 +33,15 @@ export const AboutButtonData=
     ]
 };
 
+export const AboutUsPresident={
+    title:"",
+    text: "Toastmasters is a way of life. Learning how to communicate better lets us live more at ease. NITK Toastmasters Club is my home and a fine one at that. I am glad I have the club meetings to look forward to every week. Calling is one of the best Toastmaster clubs in the world would not be an exaggeration. From the time of the club's inception, every Executive Committee has strived hard for excellence and propelled the club and it's wonderful members to great lengths. Our members have a lot of raw talent that if nurtured in the correct manner, will enable them to mature into accomplished orators. A safe space with a friendly environment is provided to everyone which enables them to fulfil the purpose of joining the club; becoming better communicators and leaders. I am blessed to have a team of able leaders who always stand resolutely by my side. I hope to set an example by making this year a benchmark term and serving as an inspiration, the way I was inspired by the legacy of the club. The past year saw us winning numerous accolades and saw a lot of firsts. With the zeal displayed by our members, I am sure we are ready to achieve even more and soar above the clouds."
+    ,
+    imgHeading1: "President",
+    imgHeading2:"NITK Toastmasters",
+    img: presi
+};
+
 export const OurTeamData={
     Content:{
         Header:"Our Team",
@@ -488,3 +497,15 @@ export const ResourceCardData=
     ]
 };
 //#endregion
+
+
+//Awards page data
+
+export const AwardsData={
+    title:"First Club in the District to bag 16/16 DCP Points",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est."
+    ,
+    imgHeading1: "",
+    imgHeading2:"Published on May 26",
+    img: presi
+};
