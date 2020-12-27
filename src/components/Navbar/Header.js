@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom';
 
 import NavLinkListItem from '../Navbar/NavLinkListItem';
 
-import navLogoUp from "../../../src/navLogoUp.png";
-import navLogoDown from '../../../src/navLogoDown.png';
+import navLogoUp from "../../../src/images/navLogoUp.png";
+import navLogoDown from '../../../src/images/navLogoDown.png';
 
 import '../../css/Header.css';
 import {NavLinkListDataBeforeMedia,NavLinkListDataAfterMedia} from '../../constants';

@@ -1,4 +1,4 @@
-import logo from '../src/navLogoUp.png';
+import logo from '../src/images/navLogoUp.png';
 import presi from '../src/images/TM Supritha.jpeg';
 import vpe from '../src/images/TM Kartik.JPG';
 import avpe from '../src/images/TM Dwija.JPG';
