@@ -322,7 +322,7 @@ export const HomeContent={
         This is reflected in our award-winning newsletters and achievements.
         We strive to keep learning and growing through a process of continuous feedback and try to be the best public speakers we can.
     </p>,
-    relativeUrl:"/about",
+    relativeUrl:"/WebsiteReact/about",
     urlText:"know more"
 }
 
@@ -477,27 +477,27 @@ export const EventCardData=
 export const NavLinkListDataBeforeMedia=[
     {
         content:"HOME",
-        relativeUrl:'/'
+        relativeUrl:'/WebsiteReact'
     },{
         content:"ABOUT US",
-        relativeUrl:'/about'
+        relativeUrl:'/WebsiteReact/about'
     },{
         content:"AWARDS",
-        relativeUrl:'/awards'
+        relativeUrl:'/WebsiteReact/awards'
     }
 ]
 
 export const NavLinkListDataAfterMedia=[
     {
         content:"EVENTS",
-        relativeUrl:'/events'
+        relativeUrl:'/WebsiteReact/events'
     },{
         content:"RESOURCES",
-        relativeUrl:'/resources'
+        relativeUrl:'/WebsiteReact/resources'
     },
     {
         content:"TEAM",
-        relativeUrl:'/ourTeam'
+        relativeUrl:'/WebsiteReact/ourTeam'
     }
     
 ]
