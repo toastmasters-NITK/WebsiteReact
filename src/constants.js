@@ -322,7 +322,7 @@ export const HomeContent={
         This is reflected in our award-winning newsletters and achievements.
         We strive to keep learning and growing through a process of continuous feedback and try to be the best public speakers we can.
     </p>,
-    relativeUrl:"/WebsiteReact/about",
+    relativeUrl:"/about",
     urlText:"know more"
 }
 
@@ -430,13 +430,6 @@ export const EventCardData=
     filterProperty:"filterProp",
     data:[
     {
-        Title:"Eventtitle1",
-        Description:"description1",
-        url:"http://localhost:3000/",
-        image:logo,
-        filterProp:"all"
-    },
-    {
         Title:"Eventtitle2",
         Description:"description2",
         url:"http://localhost:3000/",
@@ -449,12 +442,6 @@ export const EventCardData=
         url:"http://localhost:3000/",
         image:logo,
         filterProp:"upcoming"
-    },{
-        Title:"Eventtitle4",
-        Description:"description1",
-        url:"http://localhost:3000/",
-        image:logo,
-        filterProp:"all"
     },
     {
         Title:"Eventtitle5",
@@ -477,27 +464,27 @@ export const EventCardData=
 export const NavLinkListDataBeforeMedia=[
     {
         content:"HOME",
-        relativeUrl:'/WebsiteReact'
+        relativeUrl:''
     },{
         content:"ABOUT US",
-        relativeUrl:'/WebsiteReact/about'
+        relativeUrl:'/about'
     },{
         content:"AWARDS",
-        relativeUrl:'/WebsiteReact/awards'
+        relativeUrl:'/awards'
     }
 ]
 
 export const NavLinkListDataAfterMedia=[
     {
         content:"EVENTS",
-        relativeUrl:'/WebsiteReact/events'
+        relativeUrl:'/events'
     },{
         content:"RESOURCES",
-        relativeUrl:'/WebsiteReact/resources'
+        relativeUrl:'/resources'
     },
     {
         content:"TEAM",
-        relativeUrl:'/WebsiteReact/ourTeam'
+        relativeUrl:'/ourTeam'
     }
     
 ]

@@ -25,15 +25,15 @@ class App extends React.Component{
             <Router history={history}>
                 <Header/>
                     <div>
-                        <Route path='/WebsiteReact' exact component={HomeComponent}/>
-                        <Route path='/WebsiteReact/about' exact component={AboutUsComponent}/>
-                        <Route path='/WebsiteReact/awards'exact component={AwardsComponent}/>
-                        <Route path='/WebsiteReact/events' exact component={EventComponent}/>
-                        <Route path='/WebsiteReact/media/blog' exact component={BlogComponent}/>
-                        <Route path='/WebsiteReact/media/newsletter' exact component={NewsletterComponent}/>
-                        <Route path='/WebsiteReact/media/podcast' exact component={PodcastComponent}/>
-                        <Route path='/WebsiteReact/resources' exact component={ResourceComponent}/>
-                        <Route path='/WebsiteReact/ourTeam' exact component={OurTeamComponent}/>
+                        <Route path='/' exact component={HomeComponent}/>
+                        <Route path='/about' exact component={AboutUsComponent}/>
+                        <Route path='/awards'exact component={AwardsComponent}/>
+                        <Route path='/events' exact component={EventComponent}/>
+                        <Route path='/media/blog' exact component={BlogComponent}/>
+                        <Route path='/media/newsletter' exact component={NewsletterComponent}/>
+                        <Route path='/media/podcast' exact component={PodcastComponent}/>
+                        <Route path='/resources' exact component={ResourceComponent}/>
+                        <Route path='/ourTeam' exact component={OurTeamComponent}/>
                     </div>
                 <Footer/>
             </Router>
