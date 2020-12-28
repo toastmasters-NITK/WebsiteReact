@@ -4,9 +4,10 @@ import PageTitle from '../RenderingComponents/PageTitle';
 import Content from '../RenderingComponents/Content';
 import Selector from '../AggregatingComponents/Selector';
 import ImageAndContent from '../RenderingComponents/ImageAndContent';
+import Carousel from '../AggregatingComponents/Carousel';
 import OurTeam from '../AggregatingComponents/OurTeam';
 
-import {AboutButtonData,AboutTextData,AboutContentData, AboutUsPresident} from '../../constants';
+import {AboutButtonData,AboutTextData,AboutContentData, AboutUsPresident, DistrictLeaderTestimonials} from '../../constants';
 class AboutUsComponent extends React.Component{
 
     render(){
@@ -40,7 +41,8 @@ class AboutUsComponent extends React.Component{
                         components={AboutComponents}
                     />
                 </Content>
-                <OurTeam/>
+                <OurTeam center={true}/>
+                <Carousel data={DistrictLeaderTestimonials}/>
             </div>
         );
     }

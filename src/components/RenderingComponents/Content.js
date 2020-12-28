@@ -29,9 +29,9 @@ class Content extends React.Component{
             <section className="section">
                 <div className="container content">
                     <div className="row">
-                        <div className="col-lg-10 mx-auto text-center">
-                            <h2 className="section-title">{this.props.header}</h2>
-                            <p>{this.props.content}</p>
+                        <div className={"col-lg-10 mx-auto "+(this.props.center?"text-center":"")}>
+                            <h2 className="section-title text-center">{this.props.header}</h2>
+                            {this.props.content}
                             {this.urlSection}
                             {this.props.children}
                         </div>

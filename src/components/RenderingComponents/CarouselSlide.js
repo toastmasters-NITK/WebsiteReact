@@ -11,7 +11,7 @@ class CarouselSlide extends React.Component{
                     {this.props.Content}
                 </p>
                 <div className="avatar" >
-                    <img src={this.props.image} className="image" />
+                    {this.props.image?<img src={this.props.image} className="image" />:null}
                 </div>
                 <h4 class="name"><strong class="font-weight-bold">
                     {this.props.Name}</strong>

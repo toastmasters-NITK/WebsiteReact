@@ -65,7 +65,7 @@ export const AboutUsPresident={
 export const OurTeamData={
     Content:{
         Header:"Our Team",
-        Description:"We pride ourselves on providing superior service but you don't just have to take our word for it."
+        Description:"Meet and contact our team"
     },
     President:{
         Name:"TM Supritha Harishankar",
@@ -160,7 +160,7 @@ export const AboutTextData={
             <>
                 <p>
                     We provide a supportive and positive learning experience in which members are empowered to develop communication and leadership 
-                    skills, resulting in greater self confidence and personal growth.We empower individuals to become more effective communicators
+                    skills, resulting in greater self confidence and personal growth. We empower individuals to become more effective communicators
                     and leaders.
                 </p>
                 <p> 
@@ -227,24 +227,102 @@ export const AboutContentData={
         </p>
     </>
 }
+
+export const DistrictLeaderTestimonials=[
+    {
+        Name:"DTM Savitha Salian CGD - D121",
+        Content:
+        <p>
+            Dear Toastmasters of NITK,
+            Rarely does a leader of a voluntary organisation have the good fortune to lead a group of persons who are as committed to growth and 
+            leadership as toastmasters. District 121 is endowed with many members of sterling qualities and clubs that are torchbearers of 
+            innovation. As I consider your club's many achievements and the consistent levels of motivation that you display, 
+            I feel very proud to claim you as our own.
+            The very fact that you're willing to open a website is a sign of your willingness to be there for the long haul. 
+            The district pins its hopes on clubs like yours and this endeavour will hopefully open up new avenues of activities for you. 
+            As your Club Growth Director I wish you all the best. Continue to shine on! 
+        </p>
+    },
+    {
+        Name:"DTM Rajkumar Bansal IPDD - D92",
+        Content:
+        <p>
+            Dear NITK Toastmasters,
+            Hearty Congratulations on starting this website for the club. 
+            I have felt elated when I attended a full house meeting of the club few weeks back.
+            The unbridled passion of the members and sheer commitment is unrivalled in college Toastmasters club. 
+            I wish the club to be a shining example for other clubs.
+            I offer my unflinching support to the club members and leaders. 
+            Best wishes
+        </p>
+    },{
+        Name:"DTM Vanitha Rangarajan, PQD D121",
+        Content:
+        <>
+            <p>
+                I am extremely thrilled to write to the members of NITK Toastmasters. 
+                It is amazing to see the club embrace the online meeting format, go all out during this pandemic situation, 
+                and do so much for the members.
+            </p>
+            <p>
+                Through this note, I would like to share with you, a sneak peek into my personal journey into Toastmasters. 
+                I joined Toastmasters by accident (like most of you, I assume) and my journey has been incredible so far. 
+                But my Toastmasters Journey literally spear bolted when I decided to "Step up and step out! ". 
+                And, that is what I want to talk to the student members about!
+            </p>
+            <p>
+                Every single time I came to the club meeting, every single role I have taken, every single time I delivered a speech, 
+                it transformed me. Not overnight. But one role at a time. One speech at a time. One meeting at a time. 
+                The general format of Toastmasters oozes of positivity. 
+                I did not have to compete with anyone else, but there was always that healthy competition - with myself! 
+                It was amazing, how a simple act of just being regular to the meetings helped me become a better version of myself.
+                I found myself Stepping Up! With time, not just did my speaking skills improve, but also I got better at organizing events, 
+                listening better, and most importantly time management.
+            </p>
+            <p>
+                While I was still basking in the glory, of making my club reach some fantastic milestones during my term as 
+                VP-Education and President, someone very wise told me 2 years ago, to step out of the club to see what 
+                Toastmasters can do for you! Oh my god! What a journey, it has been! Stepping Out of the club, and working for the District 
+                (and for the bigger cause of Toastmasters) put me on a fast-track learning mode for some amazing leadership lessons. 
+                I was like a sponge, absorbing everything I learned from organizing events , taking up chair roles for various conferences,
+                training on behalf of the District, managing the logistics for the District, 
+                leading a Division, recently managing club growth for the district 92 last year and now taking care of education and training
+                for all of District 121.
+            </p>
+            <p>
+                We already see a lot of club members who have stepped out of the club, participated in several events hosted by Division F 
+                and our District. We also have seen several members serve the District by being a part of the extended teams of the PQD and PR. 
+                I am confident that, in the coming days, NITK Toastmasters Club will continue to serve as a role-model club for the 
+                other college clubs around.
+            </p>
+            <p>
+                Toastmasters is definitely where glossophobia comes to an end. But, Toastmasters is much more than just public speaking. 
+                It is about leadership, it is about learning, it is about networking, it is about the best of life's lessons!
+            </p>
+            <p>
+                Step Up and Step Out to see what Toastmasters can do for you! 
+            </p>
+        </>
+    }
+]
 //#endregion
 
 //#region HomePageData
 export const HomeContent={
     header:"Welcome to NITK\nToastmasters",
     content:
-        "NITK Toastmasters club was founded in 2017, by a group of very enthusiastic and passionate members. Since its humble beginnings,"+
-        "NITK Toastmasters has grown into one of the most prominent clubs its Division and District,"+ 
-        "with a member base of over 30 motivated Toastmasters. Today, NITK Toastmasters has taken every possible step to be as innovative as possible."+
-        "This is reflected in our award-winning newsletters and achievements."+
-        "We strive to keep learning and growing through a process of continuous feedback and try to be the best public speakers we can.",
+    <p>
+        NITK Toastmasters club was founded in 2017, by a group of very enthusiastic and passionate members. Since its humble beginnings,
+        NITK Toastmasters has grown into one of the most prominent clubs its Division and District, 
+        with a member base of over 30 motivated Toastmasters. Today, NITK Toastmasters has taken every possible step to be as innovative as possible.
+        This is reflected in our award-winning newsletters and achievements.
+        We strive to keep learning and growing through a process of continuous feedback and try to be the best public speakers we can.
+    </p>,
     relativeUrl:"/about",
     urlText:"know more"
 }
 
-export const TestimonialContent={
-    Header: "What our members say?",
-    Testimonials:[
+export const TestimonialContent=[
         {
             Name:"Ibrahim Ali",
             Description:"Member",
@@ -321,8 +399,7 @@ export const TestimonialContent={
             header:"What our members say?"
         }
     
-    ]
-};
+];
 //#endregion
 
 //#region EventData 

@@ -4,6 +4,7 @@
 .content .selector .btn{
     color: var(--textPrimary);
 }
+
 .section-title{
     font-size: 60px;
     font-family: 'Roboto',sans-serif;

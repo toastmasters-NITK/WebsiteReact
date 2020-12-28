@@ -17,10 +17,11 @@ class HomeComponent extends React.Component{
                     header={HomeContent.header} 
                     content={HomeContent.content} 
                     relativeUrl={HomeContent.relativeUrl} 
-                    urlText={HomeContent.urlText} 
+                    urlText={HomeContent.urlText}
+                    center={true}
                 />
                 <Carousel 
-                    data={TestimonialContent.Testimonials}
+                    data={TestimonialContent}
                 />
             </div>
         );

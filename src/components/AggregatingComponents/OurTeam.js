@@ -30,6 +30,7 @@ class OurTeam extends React.Component{
                 <Content 
                     header={OurTeamData.Content.Header} 
                     content={OurTeamData.Content.Description}
+                    center={this.props.center}
                 />
                 <div className="container">
                     <div className="row">
