@@ -5,6 +5,7 @@
     text-align: center;
     margin-bottom: 3%;
     color: var(--textTertiary);
+    padding: 40px 0px;
 }
 
 .imageAndContent .content{

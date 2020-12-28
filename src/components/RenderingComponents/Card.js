@@ -16,7 +16,7 @@ class Card extends React.Component{
 
     render(){
         const UrlSection=this.props.url!==undefined?(
-                <a href={this.props.url} class="btn btn-xs btn-primary">
+                <a href={this.props.url} target="_blank" class="btn btn-xs btn-primary">
                     Read More
                 </a>
             ):null;
