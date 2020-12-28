@@ -43,9 +43,9 @@ class Footer extends React.Component{
                                 <a href="https://www.youtube.com/channel/UCKN_Vetrt_TD7gIdUSocGig/featured">
                                     <img src="https://img.icons8.com/fluent/48/000000/youtube-play.png"/>
                                 </a>
-                                <a href="#">
+                                {/* <a href="#">
                                     <img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/>
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </div>

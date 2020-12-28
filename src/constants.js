@@ -2,11 +2,11 @@ import logo from '../src/images/navLogoUp.png';
 import presi from '../src/images/TM Supritha.jpeg';
 import vpe from '../src/images/TM Kartik.JPG';
 import avpe from '../src/images/TM Dwija.JPG';
-import vpm from '../src/images/TM Harsha.png';
+import vpm from '../src/images/TM Harsha.jpg';
 import avpm from '../src/images/TM Kruthika.JPG';
 import vppr from '../src/images/TM Sharan.JPG';
 import avppr from '../src/images/TM Adithya K.JPG';
-import avppr1 from '../src/images/TM Rahul.jpeg';
+import avppr1 from '../src/images/TM Rahul.JPG';
 import sec from '../src/images/TM Pranav.jpeg';
 import jsec1 from '../src/images/TM Sahana.JPG';
 import jsec2 from '../src/images/TM Achintya.JPG';
@@ -35,7 +35,21 @@ export const AboutButtonData=
 
 export const AboutUsPresident={
     title:"",
-    text: "Toastmasters is a way of life. Learning how to communicate better lets us live more at ease. NITK Toastmasters Club is my home and a fine one at that. I am glad I have the club meetings to look forward to every week. Calling is one of the best Toastmaster clubs in the world would not be an exaggeration. From the time of the club's inception, every Executive Committee has strived hard for excellence and propelled the club and it's wonderful members to great lengths. Our members have a lot of raw talent that if nurtured in the correct manner, will enable them to mature into accomplished orators. A safe space with a friendly environment is provided to everyone which enables them to fulfil the purpose of joining the club; becoming better communicators and leaders. I am blessed to have a team of able leaders who always stand resolutely by my side. I hope to set an example by making this year a benchmark term and serving as an inspiration, the way I was inspired by the legacy of the club. The past year saw us winning numerous accolades and saw a lot of firsts. With the zeal displayed by our members, I am sure we are ready to achieve even more and soar above the clouds."
+    text: 
+    <>
+        <p>
+            Toastmasters is a way of life. Learning how to communicate better lets us live more at ease.<br/> 
+            NITK Toastmasters Club is my home and a fine one at that. I am glad I have the club meetings to look forward to every week. <br/> 
+            Calling is one of the best Toastmaster clubs in the world would not be an exaggeration. From the time of the club's inception, 
+            every Executive Committee has strived hard for excellence and propelled the club and it's wonderful members to great lengths. <br/> 
+            Our members have a lot of raw talent that if nurtured in the correct manner, will enable them to mature into accomplished orators. 
+            A safe space with a friendly environment is provided to everyone which enables them to fulfil the purpose of joining the club: 
+            becoming better communicators and leaders. I am blessed to have a team of able leaders who always stand resolutely by my side. <br/> 
+            I hope to set an example by making this year a benchmark term and serving as an inspiration, the way I was inspired by the legacy of the club.
+            The past year saw us winning numerous accolades and saw a lot of firsts. With the zeal displayed by our members, 
+            I am sure we are ready to achieve even more and soar above the clouds.
+        </p>
+    </>
     ,
     imgHeading1: "President",
     imgHeading2:"NITK Toastmasters",
@@ -137,34 +151,75 @@ export const AboutTextData={
     data:[
         {
             text:
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."+
-            " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."+
-            " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."+
-            " Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."+
-            " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"+
-            " eaque ipsa quae.",
+            <>
+                <p>
+                    We provide a supportive and positive learning experience in which members are empowered to develop communication and leadership 
+                    skills, resulting in greater self confidence and personal growth.We empower individuals to become more effective communicators
+                    and leaders.
+                </p>
+                <p> 
+                    Instilling the values of integrity, respect, service and excellence, Toastmasters is an International community that helps you 
+                    find your place in the world and meet and learn from people all over the world.
+
+                </p>
+            </>,
             filterProp:"desc"
         },{
             text:
-            " Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."+
-            " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"+
-            " eaque ipsa quae.",
+            <p>
+                We provide a supportive and positive learning experience in which members are empowered to develop communication and leadership skills, 
+                resulting in greater self-confidence and personal growth.
+                We strive to create a warm and receptive environment where all the members can acquire the poise and confidence to address a public audience. 
+                We are a very strong community that inspires the leader within each one of us to be the best versions of ourselves, one speech at a time. 
+            </p>,
             filterProp:"mission"
         },{
             text:
-            " Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,"+
-            " eaque ipsa quae.",
+            <>
+                <p>
+                    We are a club filled with passionate and motivated public speakers who strive for perfection in the art of speaking and leadership. 
+                    Members of this club continuously learn the necessary skills to manage people and gain knowledge of how to manage priorities.
+                    In addition to these skills, our mission is to make each member realise their inner potential of public speaking. 
+                    Our members bring a cumulative experience of about 10 years in the Toastmasters Organization and are well equipped with 
+                    the knowledge and art of public speaking. 
+                    Apart from this almost all our members have leadership experiences in various facets of their lives. 
+                    One of the key qualities of NITK Toastmasters club is that all the members of this club grow to be leaders in their 
+                    respective fields of expertise. 
+                </p>
+                <p>
+                We strive for quality and make sure that every member of this club is fully aware of all the goals and opportunities. 
+                The Toastmasters community is not just for the development of the speaking skill, but rather the development of a person as a whole, 
+                it is a way of life.
+                NITK Toastmasters club takes pride in this matter and hence is the best place to learn the art of professionalism and adaptiveness.
+                </p>
+            </>,
             filterProp:"joining"
         },
     ]
 };
 
 export const AboutContentData={
-    header:"Hello World!",
+    header:"Toastmasters International",
     content:
-        "We are here to Acelerate your business and help you find the way. "+
-        "Our creative specialists work on an international level at branding, design and development. "+
-        "Both online and offline."
+    <>
+        <p>
+            The concept of Toastmasters came from Ralph C Smedley, where he saw that the men lacked the skills to speak, plan and lead teams effectively.
+            He wanted to come up with a solution to this and suggested the idea of having a club where people could work on these skills in a social 
+            environment as all these skills were needed in society.
+            This vision is the seed that was planted as the core mission of Toastmasters International and continues to be to this day.
+        </p>
+        <p>
+            TMI is a non-profit educational organisation that helps everyone to build on their speaking and leadership skills through positive
+            learning experiences. 
+            Additionally, a consequence of this is that members are closer to realising their maximum potential and achieving it through these experiences.
+            It moulds people to their best version.
+        </p>
+        <p>
+            All members pay a small fee of 45$ every 6 months to renew their membership. 
+            The costs are evidently micro scale compared to the benefits offered as TMI shows no signs of slowing down with more than 16,200 
+            clubs situated across 145 countries and approximately 364,000 members. 
+        </p>
+    </>
 }
 //#endregion
 
@@ -172,7 +227,7 @@ export const AboutContentData={
 export const HomeContent={
     header:"Welcome to NITK\nToastmasters",
     content:
-        "NITK Toastmasters club was founded in 2017, by a group of very enthusiastic and passionate members.Since its humble beginnings,"+
+        "NITK Toastmasters club was founded in 2017, by a group of very enthusiastic and passionate members. Since its humble beginnings,"+
         "NITK Toastmasters has grown into one of the most prominent clubs its Division and District,"+ 
         "with a member base of over 30 motivated Toastmasters. Today, NITK Toastmasters has taken every possible step to be as innovative as possible."+
         "This is reflected in our award-winning newsletters and achievements."+
@@ -504,16 +559,42 @@ export const AwardsData={
     text: 
     <>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            In the words of Oprah Winfrey,
+            “The key to realizing a dream is to focus not on success but on significance, 
+            and then even the small steps and little victories along your path will take on greater meaning.”
         </p>
         <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,  
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-            sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+            A group of motivated, young adults determined to acquire new skills, polish existing ones and better themselves make NITK Toastmasters 
+            the wonder it is, setting the bar higher for themselves and the club every meeting. 
+            The past year has been no different as we’ve only been adding feathers of achievement to our cap.
+        </p>
+        <p>
+            Right in the beginning of this club year, 
+            we were joined by nine new enthusiastic friends and were recognised by Toastmasters International with The Smedley Award. 
+            Our members shared their Toastmaster’s journey with friends,
+            who then chose to join us on this journey, and we were given the Talk Up Toastmasters Award.
+        </p>
+        <p>
+            Under the ongoing pandemic, our members are still motivated to grow and learn every day. 
+            We have already renewed 20+ memberships, becoming the superstar club of our district. Having maintained the club standards, 
+            conducting regular meetings and not letting the pandemic dampen our spirits, we were awarded the Covid Golden Gavel.
+        </p>
+        <p>
+            Toastmasters International follows a points system, The Distinguished Club Program (DCP) Points, 
+            that rewards a club with points on achieving certain sets of goals. 
+            Our club has received a ribbon from The District Committee for achieving 5 DCP points within the first 6/7 months of the year.
+            We also have achieved 10 DCP points within the month of February this year. 
+            Clubs with 9 or more DCP points are awarded The President's Distinguished Club by Toastmasters International. 
+            Our club, with its ever enthusiastic members, has been winning The President's Distinguished Club award for three consecutive years.
+        </p>
+        <p>
+            Having received support from people around us whenever it was required, we found the need to give back to the society in our own little ways.
+            We were awarded the YLP citation as recognition for our efforts in trying to mould the children around us into better speakers and leaders. 
+            The enthusiasm and fun that we have was captured in a newsletter and this effort won us the 3rd place for the Best Newsletter Award in The District Toastmasters Annual Convention.
+        </p>
+        <p>
+            For a club filled with dedication, this is only the beginning and have many more to come.
+            We are eagerly waiting for you to join us on our journey of achieving as we help you discover skills that shall make you the master communicator and leader.
         </p>
     </>
     
