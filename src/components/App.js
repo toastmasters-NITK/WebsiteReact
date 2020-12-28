@@ -1,5 +1,5 @@
 import React from "react";
-import {Router, Route} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 
 import history from '../history';
 
@@ -22,7 +22,7 @@ import '../css/constants.css';
 class App extends React.Component{
     render(){
         return(
-            <Router history={history}>
+            <HashRouter history={history}>
                 <Header/>
                     <div>
                         <Route path='/' exact component={HomeComponent}/>
@@ -36,7 +36,7 @@ class App extends React.Component{
                         <Route path='/ourTeam' exact component={OurTeamComponent}/>
                     </div>
                 <Footer/>
-            </Router>
+            </HashRouter>
         );
     }
 }
