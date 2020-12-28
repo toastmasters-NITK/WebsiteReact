@@ -1,0 +1,63 @@
+.carouselMain .slide.component{
+    text-align: center;
+}
+
+.carouselMain.carousel-inner{
+    background-image: url('../images/map.png');
+    background-color: var(--secondary);
+}
+
+.carouselMain .image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.carouselMain .title{
+    text-align: center;
+    color: var(--textPrimary);
+    font-size: 55px !important;
+    font-family: "Roboto",sans-serif;
+    font-weight: 795;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.carouselMain .avatar{
+    text-align: center;
+}
+
+.carouselMain .content{
+    color: var(--textPrimary);
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.carouselMain .content strong{
+    color: var(--tertiary);
+}
+
+.carouselMain .name{
+    color: var(--tertiary);
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.carouselMain .description{
+    color: var(--carouselText) !important;
+    text-align: center;
+    padding-bottom: 60px;
+    font-family: "Playfair Display", serif;
+}
+
+.carouselMain .font-color{
+    color: var(--tertiary);
+}
+

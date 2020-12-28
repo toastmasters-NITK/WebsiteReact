@@ -13,6 +13,12 @@ import jsec2 from '../src/images/TM Achintya.JPG';
 import treas from '../src/images/TM Rashmi.JPG';
 import saa from '../src/images/TM Riya.JPG';
 
+import ibra from '../src/images/TM Ibrahim.jpeg';
+import nish from '../src/images/TM Nishtha.jpeg';
+import krit from '../src/images/TM Kriti.jpeg';
+import shan from '../src/images/TM Shankar.jpeg';
+import rahu from '../src/images/TM Rahul.JPG';
+
 
 //#region AboutData
 export const AboutButtonData=
@@ -235,6 +241,88 @@ export const HomeContent={
     relativeUrl:"/about",
     urlText:"know more"
 }
+
+export const TestimonialContent={
+    Header: "What our members say?",
+    Testimonials:[
+        {
+            Name:"Ibrahim Ali",
+            Description:"Member",
+            Content:
+            <p>
+                "Before Toastmasters I can remember a speech that I delivered in school and I was so nervous. 
+                Mind completely blanking upon looking at the sea of faces before me. 
+                Yet, thanks to the club and its amazingly friendly and inspirational environment, I am now much more confident, 
+                nimble and at ease when taking to an audience."
+            </p>,
+            image:ibra,
+            header:"What our members say?"
+        },
+        {
+            Name:"Nishtha Kumari",
+            Description:"Member",
+            Content:
+            <p>
+                "After joining Toastmasters, I was surprised to see how people speak, evaluate and mentor so nicely. I want to develop these skills too.
+                I was confused about what I could or couldn't speak on. I want to develop my social skills as well as become more professional. 
+                Most importantly, I am not fluent in English, so I wish to become a better English speaker.
+                Toastmasters has helped me know a lot more about myself."
+            </p>,
+            image:nish,
+            header:"What our members say?"
+        },
+        {
+            Name:"Kriti Shukla",
+            Description:"Member",
+            Content:
+            <p>
+                "I joined Toastmasters six months ago. Since then, I have made drastic improvements in my ability to make small talk, 
+                met a lot of new people and learned a lot from them, but most of all, I have become better at overcoming stage fright. 
+                It will never entirely go away, but giving speeches in Toastmasters has taught me how to effectively manage it."
+            </p>,
+            image:krit,
+            header:"What our members say?"
+        },
+        {
+            Name:"Shankar",
+            Description:"Member",
+            Content:
+            <p>
+                "I joined Toastmasters’ in March, just before the whole coronavirus pandemic. 
+                So, the majority of meets that I have attended have been online. During this period of isolation, and restricted social activity, 
+                Toastmasters’ turned out to be a blessing in disguise, especially when we had 
+                <strong>
+                    {" meets with clubs from other countries, and met people from different cultures. "}
+                </strong>
+                    Of course, considering the situation at the moment, there hasn’t been much of a call for these skills frequently, 
+                    but in the few moments, that there has been a need, 
+                    I have recently begun to notice a slight improvement in my communication skills, 
+                    and confidence in speaking in front of a large group, as well. Before joining Toastmasters’, 
+                    what piqued my interest the most about how their meets went, was the Table Topics session,
+                    which is basically an impromptu speaking session. It is these sessions that have helped me the most, 
+                    as most of life is spent speaking impromptu. Of course, since it hasn’t been that long since I joined, 
+                    my Toastmasters' journey has just barely begun, and I can’t speak from experience on the professional front of how Toastmasters' helps. 
+                    But I can positively say that Toastmasters’ will definitely enhance communication skills, weaken stage fright,
+                    or any such inhibitions of the sort, and as an added bonus, introduce you to new people and cultures.",
+            </p>,
+            image:shan,
+            header:"What our members say?"
+        },
+        {
+            Name:"Rahul Hachante",
+            Description:"Member",
+            Content:
+            <p>
+                "Toastmasters has been a wonderful journey from the time I have joined. 
+                It has helped me realize that I have good speaking skills and gave confidence while interacting with people from various fields.
+                Moreover, the club has nurtured my leadership qualities and helped me to increase my social network."
+            </p>,
+            image:rahu,
+            header:"What our members say?"
+        }
+    
+    ]
+};
 //#endregion
 
 //#region EventData 

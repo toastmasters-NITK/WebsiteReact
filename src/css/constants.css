@@ -9,6 +9,7 @@
     --textPrimary:white;
     --textSecondary:black;
     --textTertiary:#4c4c4c;
+    --carouselText:#999999;
     --textHover:rgba(255, 255, 255, 0.5);
     --buttonTextColor:#004165;
 }
