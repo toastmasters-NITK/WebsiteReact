@@ -11,6 +11,7 @@ import AboutUsComponent from './PageComponents/AboutUsComponent';
 import AwardsComponent from './PageComponents/AwardsComponent';
 import EventComponent from './PageComponents/EventComponent';
 import ResourceComponent from './PageComponents/ResourceComponent';
+import OurTeamComponent from './PageComponents/OurTeamComponent';
 
 import BlogComponent from './MediaComponents/BlogComponent';
 import NewsletterComponent from './MediaComponents/NewsletterComponent';
@@ -32,6 +33,7 @@ class App extends React.Component{
                         <Route path='/media/newsletter' exact component={NewsletterComponent}/>
                         <Route path='/media/podcast' exact component={PodcastComponent}/>
                         <Route path='/resources' exact component={ResourceComponent}/>
+                        <Route path='/ourTeam' exact component={OurTeamComponent}/>
                     </div>
                 <Footer/>
             </Router>

@@ -1,8 +1,6 @@
 import React from 'react';
-import Content from './Content'
 
-import '../../css/OurTeam.css'
-//import {OurTeamData} from '../../constants';
+import '../../css/OurTeam.css';
 class OurTeamItem extends React.Component{
     
     render(){

@@ -20,24 +20,7 @@ import shan from '../src/images/TM Shankar.jpeg';
 import rahu from '../src/images/TM Rahul.JPG';
 
 
-//#region AboutData
-export const AboutButtonData=
-{
-    defaultValue:"desc",
-    data:[
-    {
-        text:"toastmasters international",
-        value:"desc",
-        checked:"checked"
-    },{
-        text:"our mission",
-        value:"mission"
-    },{
-        text:"why join us",
-        value:"joining"
-    }
-    ]
-};
+//#region OurTeamData
 
 export const AboutUsPresident={
     title:"",
@@ -78,7 +61,8 @@ export const OurTeamData={
         Name:"TM Kartik Nayak",
         Description:"Vice President Education",
         url:"https://www.linkedin.com/in/kartik-nayak-2b120313b",
-        image:vpe
+        image:vpe,
+        about:"dlkfhsdjfsdkjbk jew efjhw kejnfwek jfwk ejbwkje fwekj"
     },
     {
         Name:"TM Dwija Bagwe",
@@ -151,6 +135,26 @@ export const OurTeamData={
 
 
 ]};
+//#endregion
+
+//#region AboutData
+export const AboutButtonData=
+{
+    defaultValue:"desc",
+    data:[
+    {
+        text:"toastmasters international",
+        value:"desc",
+        checked:"checked"
+    },{
+        text:"our mission",
+        value:"mission"
+    },{
+        text:"why join us",
+        value:"joining"
+    }
+    ]
+};
 
 export const AboutTextData={
     filterProperty:"filterProp",
@@ -405,11 +409,11 @@ export const TestimonialContent=[
 //#region EventData 
 export const EventButtonData=
 {
-    defaultValue:"all",
+    defaultValue:"",
     data:[
     {
         text:"all",
-        value:"all",
+        value:"",
         checked:"checked"
     },{
         text:"previous events",
@@ -477,21 +481,25 @@ export const NavLinkListDataBeforeMedia=[
     },{
         content:"ABOUT US",
         relativeUrl:'/about'
+    },{
+        content:"AWARDS",
+        relativeUrl:'/awards'
     }
 ]
 
 export const NavLinkListDataAfterMedia=[
     {
-        content:"AWARDS",
-        relativeUrl:'/awards'
-    },{
         content:"EVENTS",
         relativeUrl:'/events'
+    },{
+        content:"RESOURCES",
+        relativeUrl:'/resources'
     },
-    // {
-    //     content:"RESOURCES",
-    //     relativeUrl:'/resources'
-    // }
+    {
+        content:"TEAM",
+        relativeUrl:'/ourTeam'
+    }
+    
 ]
 //#endregion
 
@@ -622,12 +630,9 @@ export const ResourceButtonData=
     defaultValue:"club",
     data:[
     {
-        text:"Club Resources",
+        text:"Role taker resources",
         value:"club",
         checked:"checked"
-    },{
-        text:"Pathways Resources",
-        value:"pathways"
     },{
         text:"Contests Resources",
         value:"contests"
@@ -635,8 +640,8 @@ export const ResourceButtonData=
         text:"New Member Resources",
         value:"new"
     },{
-        text:"Miscellanous",
-        value:"misc"
+        text:"ExComm Resources",
+        value:"excomm"
     }
     ]
 };
@@ -647,17 +652,9 @@ export const ResourceCardData=
         data:[
         {
             Title:"Resourcetitle1",
-            Description:"description1",
             url:"http://localhost:3000/",
             image:logo,
             filterProp:"club"
-        },
-        {
-            Title:"Resourcetitle2",
-            Description:"description2",
-            url:"http://localhost:3000/",
-            image:logo,
-            filterProp:"pathways"
         },
         {
             Title:"Resourcetitle3",
@@ -671,13 +668,6 @@ export const ResourceCardData=
             url:"http://localhost:3000/",
             image:logo,
             filterProp:"club"
-        },
-        {
-            Title:"Resourcetitle5",
-            Description:"description2",
-            url:"http://localhost:3000/",
-            image:logo,
-            filterProp:"pathways"
         },
         {
             Title:"Resourcetitle6",
@@ -698,7 +688,7 @@ export const ResourceCardData=
             Description:"description3",
             url:"http://localhost:3000/",
             image:logo,
-            filterProp:"misc"
+            filterProp:"excomm"
         },
         {
             Title:"Resourcetitle9",
@@ -712,13 +702,14 @@ export const ResourceCardData=
             Description:"description3",
             url:"http://localhost:3000/",
             image:logo,
-            filterProp:"misc"
+            filterProp:"excomm"
         }
     ]
 };
 //#endregion
 
 //#region AwardsPage
+
 export const AwardsData={
     title:"First Club in the District to bag 16/16 DCP Points",
     text: 

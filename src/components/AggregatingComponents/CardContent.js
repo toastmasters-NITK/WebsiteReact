@@ -12,7 +12,7 @@ class CardContent extends React.Component{
         return(
             <section class="card-content section">
                 <div class="container">
-                    <div class="row">
+                    <div class="row center">
                         {CardRenderList}
                     </div>
                 </div>

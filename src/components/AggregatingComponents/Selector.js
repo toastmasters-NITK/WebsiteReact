@@ -35,7 +35,7 @@ class Selector extends React.Component{
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row">
+                    <div className="row center">
                         {filteredComponents}
                     </div>
                 </div>
