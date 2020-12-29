@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/WebsiteReact/static/css/main.25fe5aff.chunk.css",
-    "main.js": "/WebsiteReact/static/js/main.b1087b50.chunk.js",
-    "main.js.map": "/WebsiteReact/static/js/main.b1087b50.chunk.js.map",
+    "main.js": "/WebsiteReact/static/js/main.29478aff.chunk.js",
+    "main.js.map": "/WebsiteReact/static/js/main.29478aff.chunk.js.map",
     "runtime-main.js": "/WebsiteReact/static/js/runtime-main.05916fb7.js",
     "runtime-main.js.map": "/WebsiteReact/static/js/runtime-main.05916fb7.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/WebsiteReact/static/css/2.20aa2d7b.chunk.css",
@@ -36,6 +36,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.8f0feed4.chunk.js",
     "static/css/main.25fe5aff.chunk.css",
-    "static/js/main.b1087b50.chunk.js"
+    "static/js/main.29478aff.chunk.js"
   ]
 }
