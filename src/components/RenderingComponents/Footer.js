@@ -5,7 +5,7 @@ class Footer extends React.Component{
 
     state=({mailBody:"",name:"",subject:""});
 
-    mailAddress="aditya.171co105@nitk.edu.in";
+    mailAddress="toastmasters@nitk.edu.in";
 
     handleChange=(e)=>{
         if(e.target.id==="name")
