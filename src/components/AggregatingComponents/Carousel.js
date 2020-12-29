@@ -23,7 +23,7 @@ class Carousel extends React.Component {
             isActive="active";
         }
         return (
-            <li data-target="#carouselExampleIndicators" data-slide-to={index} className={isActive}></li>
+            <li key={index} data-target="#carouselExampleIndicators" data-slide-to={index} className={isActive}></li>
         );
         
     })

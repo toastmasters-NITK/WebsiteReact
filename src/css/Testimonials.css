@@ -18,7 +18,7 @@
 .carouselMain .title{
     text-align: center;
     color: var(--textPrimary);
-    font-size: 55px !important;
+    font-size: 60px !important;
     font-family: "Roboto",sans-serif;
     font-weight: 795;
     padding-top: 80px;
@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-.carouselMain .content{
+.carouselMain .slide-content{
     color: var(--textPrimary);
     text-align: center;
     padding-left: 300px;
@@ -38,7 +38,7 @@
     padding-bottom: 15px;
 }
 
-.carouselMain .content strong{
+.carouselMain .slide-content strong{
     color: var(--tertiary);
 }
 

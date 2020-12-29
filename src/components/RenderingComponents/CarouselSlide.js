@@ -7,16 +7,16 @@ class CarouselSlide extends React.Component{
                 <div className="title">
                     {this.props.header}
                 </div>
-                <p class="content">
+                <div className="slide-content">
                     {this.props.Content}
-                </p>
+                </div>
                 <div className="avatar" >
                     {this.props.image?<img src={this.props.image} className="image" />:null}
                 </div>
-                <h4 class="name"><strong class="font-weight-bold">
+                <h4 className="name"><strong className="font-weight-bold">
                     {this.props.Name}</strong>
                 </h4>
-                <h6 class="description">
+                <h6 className="description">
                     {this.props.Description}
                 </h6>
             </div>

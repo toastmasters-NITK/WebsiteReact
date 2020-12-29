@@ -11,9 +11,9 @@ class AboutUsComponent extends React.Component{
     render(){
         const AboutComponents=AboutTextData.data.map(({text,filterProp})=>{
             return(
-                <p key={text} filterProp={filterProp} >
+                <div key={text} filterProp={filterProp} >
                     {text}
-                </p>
+                </div>
             )
         });
         return(

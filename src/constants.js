@@ -41,7 +41,7 @@ export const AboutUsPresident={
     </>
     ,
     imgHeading1: "President",
-    imgHeading2:"NITK Toastmasters",
+    imgHeading2:"NITK Toastmasters Club",
     img: presi
 };
 
@@ -193,14 +193,14 @@ export const AboutTextData={
                     Our members bring a cumulative experience of about 10 years in the Toastmasters Organization and are well equipped with 
                     the knowledge and art of public speaking. 
                     Apart from this almost all our members have leadership experiences in various facets of their lives. 
-                    One of the key qualities of NITK Toastmasters club is that all the members of this club grow to be leaders in their 
+                    One of the key qualities of NITK Toastmasters Club is that all the members of this club grow to be leaders in their 
                     respective fields of expertise. 
                 </p>
                 <p>
                 We strive for quality and make sure that every member of this club is fully aware of all the goals and opportunities. 
                 The Toastmasters community is not just for the development of the speaking skill, but rather the development of a person as a whole, 
                 it is a way of life.
-                NITK Toastmasters club takes pride in this matter and hence is the best place to learn the art of professionalism and adaptiveness.
+                NITK Toastmasters Club takes pride in this matter and hence is the best place to learn the art of professionalism and adaptiveness.
                 </p>
             </>,
             filterProp:"joining"
@@ -251,7 +251,7 @@ export const DistrictLeaderTestimonials=[
         Name:"DTM Rajkumar Bansal IPDD - D92",
         Content:
         <p>
-            Dear NITK Toastmasters,
+            Dear NITK Toastmasters Club,
             Hearty Congratulations on starting this website for the club. 
             I have felt elated when I attended a full house meeting of the club few weeks back.
             The unbridled passion of the members and sheer commitment is unrivalled in college Toastmasters club. 
@@ -264,7 +264,7 @@ export const DistrictLeaderTestimonials=[
         Content:
         <>
             <p>
-                I am extremely thrilled to write to the members of NITK Toastmasters. 
+                I am extremely thrilled to write to the members of NITK Toastmasters Club. 
                 It is amazing to see the club embrace the online meeting format, go all out during this pandemic situation, 
                 and do so much for the members.
             </p>
@@ -313,12 +313,13 @@ export const DistrictLeaderTestimonials=[
 
 //#region HomePageData
 export const HomeContent={
-    header:"Welcome to NITK\nToastmasters",
+    header:"Welcome to NITK\nToastmasters Club",
     content:
     <p>
-        NITK Toastmasters club was founded in 2017, by a group of very enthusiastic and passionate members. Since its humble beginnings,
-        NITK Toastmasters has grown into one of the most prominent clubs its Division and District, 
-        with a member base of over 30 motivated Toastmasters. Today, NITK Toastmasters has taken every possible step to be as innovative as possible.
+        NITK Toastmasters Club was founded in 2017, by a group of very enthusiastic and passionate members. Since its humble beginnings,
+        NITK Toastmasters Club has grown into one of the most prominent clubs its Division and District, 
+        with a member base of over 30 motivated Toastmasters. 
+        Today, NITK Toastmasters Club has taken every possible step to be as innovative as possible.
         This is reflected in our award-winning newsletters and achievements.
         We strive to keep learning and growing through a process of continuous feedback and try to be the best public speakers we can.
     </p>,
@@ -334,11 +335,11 @@ export const TestimonialContent=[
             <p>
                 "Before Toastmasters I can remember a speech that I delivered in school and I was so nervous. 
                 Mind completely blanking upon looking at the sea of faces before me. 
-                Yet, thanks to the club and its amazingly friendly and inspirational environment, I am now much more confident, 
+                Yet, thanks to the club and its <strong>amazingly friendly and inspirational environment</strong>, I am now much more confident, 
                 nimble and at ease when taking to an audience."
             </p>,
             image:ibra,
-            header:"What our members say?"
+            header:"Hear it from our members"
         },
         {
             Name:"Nishtha Kumari",
@@ -347,11 +348,10 @@ export const TestimonialContent=[
             <p>
                 "After joining Toastmasters, I was surprised to see how people speak, evaluate and mentor so nicely. I want to develop these skills too.
                 I was confused about what I could or couldn't speak on. I want to develop my social skills as well as become more professional. 
-                Most importantly, I am not fluent in English, so I wish to become a better English speaker.
-                Toastmasters has helped me know a lot more about myself."
+                Most importantly, I am not fluent in English, so I wish to become a better English speaker. <strong>Toastmasters has helped me know a lot more about myself.</strong>"
             </p>,
             image:nish,
-            header:"What our members say?"
+            header:"Hear it from our members"
         },
         {
             Name:"Kriti Shukla",
@@ -359,11 +359,11 @@ export const TestimonialContent=[
             Content:
             <p>
                 "I joined Toastmasters six months ago. Since then, I have made drastic improvements in my ability to make small talk, 
-                met a lot of new people and learned a lot from them, but most of all, I have become better at overcoming stage fright. 
+                met a lot of new people and learned a lot from them, but most of all, <strong>I have become better at overcoming stage fright. </strong>
                 It will never entirely go away, but giving speeches in Toastmasters has taught me how to effectively manage it."
             </p>,
             image:krit,
-            header:"What our members say?"
+            header:"Hear it from our members"
         },
         {
             Name:"Shankar",
@@ -373,22 +373,20 @@ export const TestimonialContent=[
                 "I joined Toastmasters’ in March, just before the whole coronavirus pandemic. 
                 So, the majority of meets that I have attended have been online. During this period of isolation, and restricted social activity, 
                 Toastmasters’ turned out to be a blessing in disguise, especially when we had 
-                <strong>
-                    {" meets with clubs from other countries, and met people from different cultures. "}
-                </strong>
-                    Of course, considering the situation at the moment, there hasn’t been much of a call for these skills frequently, 
-                    but in the few moments, that there has been a need, 
-                    I have recently begun to notice a slight improvement in my communication skills, 
-                    and confidence in speaking in front of a large group, as well. Before joining Toastmasters’, 
-                    what piqued my interest the most about how their meets went, was the Table Topics session,
-                    which is basically an impromptu speaking session. It is these sessions that have helped me the most, 
-                    as most of life is spent speaking impromptu. Of course, since it hasn’t been that long since I joined, 
-                    my Toastmasters' journey has just barely begun, and I can’t speak from experience on the professional front of how Toastmasters' helps. 
-                    But I can positively say that Toastmasters’ will definitely enhance communication skills, weaken stage fright,
-                    or any such inhibitions of the sort, and as an added bonus, introduce you to new people and cultures.",
+                <strong> meets with clubs from other countries, and met people from different cultures.
+                </strong> Of course, considering the situation at the moment, there hasn’t been much of a call for these skills frequently, 
+                but in the few moments, that there has been a need, 
+                I have recently begun to notice a slight improvement in my communication skills, 
+                and confidence in speaking in front of a large group, as well. Before joining Toastmasters’, 
+                what piqued my interest the most about how their meets went, was the Table Topics session,
+                which is basically an impromptu speaking session. It is these sessions that have helped me the most, 
+                as most of life is spent speaking impromptu. Of course, since it hasn’t been that long since I joined, 
+                my Toastmasters' journey has just barely begun, and I can’t speak from experience on the professional front of how Toastmasters' helps. 
+                But I can positively say that Toastmasters’ will definitely <strong>enhance communication skills, weaken stage fright,
+                or any such inhibitions of the sort, and as an added bonus, introduce you to new people and cultures.</strong>",
             </p>,
             image:shan,
-            header:"What our members say?"
+            header:"Hear it from our members"
         },
         {
             Name:"Rahul Hachante",
@@ -397,10 +395,10 @@ export const TestimonialContent=[
             <p>
                 "Toastmasters has been a wonderful journey from the time I have joined. 
                 It has helped me realize that I have good speaking skills and gave confidence while interacting with people from various fields.
-                Moreover, the club has nurtured my leadership qualities and helped me to increase my social network."
+                Moreover, the club has <strong>nurtured my leadership qualities and helped me to increase my social network.</strong>"
             </p>,
             image:rahu,
-            header:"What our members say?"
+            header:"Hear it from our members"
         }
     
 ];
@@ -720,7 +718,7 @@ export const ResourceCardData=
             filterProp:"excomm"
         },
         {
-            Title:"VP Membership",
+            Title:"VP Membersip",
             url:"https://drive.google.com/file/d/1FuBIwmGXmA_2sp5Vw2RFnLjvZTGRO3xB/view?usp=sharing",
             image:logo,
             filterProp:"excomm"
@@ -747,7 +745,7 @@ export const AwardsData={
             and then even the small steps and little victories along your path will take on greater meaning.”
         </p>
         <p>
-            A group of motivated, young adults determined to acquire new skills, polish existing ones and better themselves make NITK Toastmasters 
+            A group of motivated, young adults determined to acquire new skills, polish existing ones and better themselves make NITK Toastmasters club
             the wonder it is, setting the bar higher for themselves and the club every meeting. 
             The past year has been no different as we’ve only been adding feathers of achievement to our cap.
         </p>

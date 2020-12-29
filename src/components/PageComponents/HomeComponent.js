@@ -11,7 +11,7 @@ class HomeComponent extends React.Component{
             <div>
                 <PageTitle>
                     NITK<br/>
-                    Toastmasters
+                    Toastmasters Club
                 </PageTitle>
                 <Content 
                     header={HomeContent.header} 

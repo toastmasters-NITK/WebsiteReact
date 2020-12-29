@@ -28,3 +28,7 @@
 .footer-section h4{
     padding: 20px;
 }
+
+.footer-section .center-block{
+    margin: auto;
+}

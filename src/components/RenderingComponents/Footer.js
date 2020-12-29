@@ -2,33 +2,56 @@ import React from 'react';
 
 import "../../css/Footer.css";
 class Footer extends React.Component{
+
+    state=({mailBody:"",name:"",subject:""});
+
+    mailAddress="aditya.171co105@nitk.edu.in";
+
+    handleChange=(e)=>{
+        if(e.target.id==="name")
+            this.setState({name:e.target.value});
+        if(e.target.id==="subject")
+            this.setState({subject:e.target.value});
+        if(e.target.id==='mailBody')
+            this.setState({mailBody:e.target.value.replace(/\n/g,"%0D%0A")});
+    }
+
     render(){
+        console.log(this.state.mailBody);
         return(
             <footer className="bg-dark footer-section">
                 <div className="section">
                     <div className="row">
                         <div className="col-md-8">
                                 <h4 className="text-center">CONTACT US!</h4>
-                                <form action="https://airform.io/toastmasters@nitk.edu.in" method="post">
+                                <form>
                                     <div className="form-row">
                                         <div className="form-group col-md-6">
-                                            <label htmlFor="inputName">Name</label>
-                                            <input type="text" className="form-control" id="inputName"/>
+                                            <label htmlFor="name">Name</label>
+                                            <input type="text" className="form-control" onChange={this.handleChange} id="name"/>
                                         </div>
                                         <div className="form-group col-md-6">
-                                            <label htmlFor="inputEmail">E-Mail</label>
-                                            <input type="email" className="form-control" id="inputEmail"/>
+                                            <label htmlFor="subject">Subject</label>
+                                            <input type="text" className="form-control" onChange={this.handleChange} id="subject"/>
                                         </div>
                                     </div>
+                                   
                                     <div className="form-group">
-                                        <label htmlFor="inputAddress">Subject</label>
-                                        <input type="text" className="form-control" id="inputAddress"/>
+                                        <label htmlFor="mailBody">Message</label>
+                                        <textarea className="form-control" onChange={this.handleChange} id="mailBody" rows="3"/>
                                     </div>
-                                    <div className="form-group">
-                                        <label htmlFor="exampleFormControlTextarea1">Message</label>
-                                        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                    </div>
-                                    <button type="submit" className="btn btn-primary">Send</button>
+                                    <a 
+                                        href=
+                                        {
+                                            "mailto:"+this.mailAddress+
+                                            "?subject="+this.state.subject+
+                                            "&body="+this.state.mailBody+
+                                            "%0D%0AWith Regards,%0D%0A"+this.state.name
+                                        } 
+                                        target='_blank' 
+                                        className="btn btn-primary">
+                                            Send
+                                    </a>
                                 </form>
                             </div>
                         <div className="col-md-4 text-center">
