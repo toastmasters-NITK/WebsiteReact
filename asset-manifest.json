@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/WebsiteReact/static/css/main.e579a84e.chunk.css",
-    "main.js": "/WebsiteReact/static/js/main.a4141dd6.chunk.js",
-    "main.js.map": "/WebsiteReact/static/js/main.a4141dd6.chunk.js.map",
+    "main.css": "/WebsiteReact/static/css/main.25fe5aff.chunk.css",
+    "main.js": "/WebsiteReact/static/js/main.b1087b50.chunk.js",
+    "main.js.map": "/WebsiteReact/static/js/main.b1087b50.chunk.js.map",
     "runtime-main.js": "/WebsiteReact/static/js/runtime-main.05916fb7.js",
     "runtime-main.js.map": "/WebsiteReact/static/js/runtime-main.05916fb7.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/WebsiteReact/static/css/2.20aa2d7b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.8f0feed4.chunk.js.map": "/WebsiteReact/static/js/2.8f0feed4.chunk.js.map",
     "index.html": "/WebsiteReact/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/WebsiteReact/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.e579a84e.chunk.css.map": "/WebsiteReact/static/css/main.e579a84e.chunk.css.map",
+    "static/css/main.25fe5aff.chunk.css.map": "/WebsiteReact/static/css/main.25fe5aff.chunk.css.map",
     "static/js/2.8f0feed4.chunk.js.LICENSE.txt": "/WebsiteReact/static/js/2.8f0feed4.chunk.js.LICENSE.txt",
     "static/media/TM Achintya.1845040e.JPG": "/WebsiteReact/static/media/TM Achintya.1845040e.JPG",
     "static/media/TM Adithya K.f7f2e105.JPG": "/WebsiteReact/static/media/TM Adithya K.f7f2e105.JPG",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.05916fb7.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.8f0feed4.chunk.js",
-    "static/css/main.e579a84e.chunk.css",
-    "static/js/main.a4141dd6.chunk.js"
+    "static/css/main.25fe5aff.chunk.css",
+    "static/js/main.b1087b50.chunk.js"
   ]
 }
