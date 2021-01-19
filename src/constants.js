@@ -1,3 +1,4 @@
+//#region Excomm
 import logo from '../src/images/Navbar/navLogoUp.png';
 import presi from '../src/images/Ex-CommTeam/TM Supritha.jpeg';
 import vpe from '../src/images/Ex-CommTeam/TM Kartik.JPG';
@@ -12,13 +13,15 @@ import jsec1 from '../src/images/Ex-CommTeam/TM Sahana.JPG';
 import jsec2 from '../src/images/Ex-CommTeam/TM Achintya.JPG';
 import treas from '../src/images/Ex-CommTeam/TM Rashmi.JPG';
 import saa from '../src/images/Ex-CommTeam/TM Riya.JPG';
+//#endregion
 
+//#region Testimonials
 import ibra from '../src/images/Testimonials/TM Ibrahim.jpeg';
 import nish from '../src/images/Testimonials/TM Nishtha.jpeg';
 import krit from '../src/images/Testimonials/TM Kriti.jpeg';
 import shan from '../src/images/Testimonials/TM Shankar.jpeg';
 import rahu from '../src/images/Testimonials/TM Rahul.JPG';
-
+//#endregion
 
 //#region OurTeamData
 
@@ -48,7 +51,6 @@ export const AboutUsPresident={
 export const OurTeamData={
     Content:{
         Header:"Our Team",
-        Description:"Meet and contact our team"
     },
     President:{
         Name:"TM Supritha Harishankar",
@@ -62,7 +64,6 @@ export const OurTeamData={
         Description:"Vice President Education",
         url:"https://www.linkedin.com/in/kartik-nayak-2b120313b",
         image:vpe,
-        about:"dlkfhsdjfsdkjbk jew efjhw kejnfwek jfwk ejbwkje fwekj"
     },
     {
         Name:"TM Dwija Bagwe",
