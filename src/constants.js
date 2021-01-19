@@ -1,23 +1,23 @@
-import logo from '../src/images/navLogoUp.png';
-import presi from '../src/images/TM Supritha.jpeg';
-import vpe from '../src/images/TM Kartik.JPG';
-import avpe from '../src/images/TM Dwija.JPG';
-import vpm from '../src/images/TM Harsha.jpg';
-import avpm from '../src/images/TM Kruthika.JPG';
-import vppr from '../src/images/TM Sharan.JPG';
-import avppr from '../src/images/TM Adithya K.JPG';
-import avppr1 from '../src/images/TM Rahul.JPG';
-import sec from '../src/images/TM Pranav.jpeg';
-import jsec1 from '../src/images/TM Sahana.JPG';
-import jsec2 from '../src/images/TM Achintya.JPG';
-import treas from '../src/images/TM Rashmi.JPG';
-import saa from '../src/images/TM Riya.JPG';
+import logo from '../src/images/Navbar/navLogoUp.png';
+import presi from '../src/images/Ex-CommTeam/TM Supritha.jpeg';
+import vpe from '../src/images/Ex-CommTeam/TM Kartik.JPG';
+import avpe from '../src/images/Ex-CommTeam/TM Dwija.JPG';
+import vpm from '../src/images/Ex-CommTeam/TM Harsha.jpg';
+import avpm from '../src/images/Ex-CommTeam/TM Kruthika.JPG';
+import vppr from '../src/images/Ex-CommTeam/TM Sharan.JPG';
+import avppr from '../src/images/Ex-CommTeam/TM Adithya K.JPG';
+import avppr1 from '../src/images/Testimonials/TM Rahul.JPG';
+import sec from '../src/images/Ex-CommTeam/TM Pranav.jpeg';
+import jsec1 from '../src/images/Ex-CommTeam/TM Sahana.JPG';
+import jsec2 from '../src/images/Ex-CommTeam/TM Achintya.JPG';
+import treas from '../src/images/Ex-CommTeam/TM Rashmi.JPG';
+import saa from '../src/images/Ex-CommTeam/TM Riya.JPG';
 
-import ibra from '../src/images/TM Ibrahim.jpeg';
-import nish from '../src/images/TM Nishtha.jpeg';
-import krit from '../src/images/TM Kriti.jpeg';
-import shan from '../src/images/TM Shankar.jpeg';
-import rahu from '../src/images/TM Rahul.JPG';
+import ibra from '../src/images/Testimonials/TM Ibrahim.jpeg';
+import nish from '../src/images/Testimonials/TM Nishtha.jpeg';
+import krit from '../src/images/Testimonials/TM Kriti.jpeg';
+import shan from '../src/images/Testimonials/TM Shankar.jpeg';
+import rahu from '../src/images/Testimonials/TM Rahul.JPG';
 
 
 //#region OurTeamData
@@ -245,7 +245,8 @@ export const DistrictLeaderTestimonials=[
             The very fact that you're willing to open a website is a sign of your willingness to be there for the long haul. 
             The district pins its hopes on clubs like yours and this endeavour will hopefully open up new avenues of activities for you. 
             As your Club Growth Director I wish you all the best. Continue to shine on! 
-        </p>
+        </p>,
+        header:"District Leaders- Past and Present"
     },
     {
         Name:"DTM Rajkumar Bansal IPDD - D92",
@@ -258,55 +259,20 @@ export const DistrictLeaderTestimonials=[
             I wish the club to be a shining example for other clubs.
             I offer my unflinching support to the club members and leaders. 
             Best wishes
-        </p>
+        </p>,
+        header:"District Leaders- Past and Present"
     },{
         Name:"DTM Vanitha Rangarajan, PQD D121",
         Content:
-        <>
-            <p>
-                I am extremely thrilled to write to the members of NITK Toastmasters Club. 
-                It is amazing to see the club embrace the online meeting format, go all out during this pandemic situation, 
-                and do so much for the members.
-            </p>
-            <p>
-                Through this note, I would like to share with you, a sneak peek into my personal journey into Toastmasters. 
-                I joined Toastmasters by accident (like most of you, I assume) and my journey has been incredible so far. 
-                But my Toastmasters Journey literally spear bolted when I decided to "Step up and step out! ". 
-                And, that is what I want to talk to the student members about!
-            </p>
-            <p>
-                Every single time I came to the club meeting, every single role I have taken, every single time I delivered a speech, 
-                it transformed me. Not overnight. But one role at a time. One speech at a time. One meeting at a time. 
-                The general format of Toastmasters oozes of positivity. 
-                I did not have to compete with anyone else, but there was always that healthy competition - with myself! 
-                It was amazing, how a simple act of just being regular to the meetings helped me become a better version of myself.
-                I found myself Stepping Up! With time, not just did my speaking skills improve, but also I got better at organizing events, 
-                listening better, and most importantly time management.
-            </p>
-            <p>
-                While I was still basking in the glory, of making my club reach some fantastic milestones during my term as 
-                VP-Education and President, someone very wise told me 2 years ago, to step out of the club to see what 
-                Toastmasters can do for you! Oh my god! What a journey, it has been! Stepping Out of the club, and working for the District 
-                (and for the bigger cause of Toastmasters) put me on a fast-track learning mode for some amazing leadership lessons. 
-                I was like a sponge, absorbing everything I learned from organizing events , taking up chair roles for various conferences,
-                training on behalf of the District, managing the logistics for the District, 
-                leading a Division, recently managing club growth for the district 92 last year and now taking care of education and training
-                for all of District 121.
-            </p>
-            <p>
-                We already see a lot of club members who have stepped out of the club, participated in several events hosted by Division F 
-                and our District. We also have seen several members serve the District by being a part of the extended teams of the PQD and PR. 
-                I am confident that, in the coming days, NITK Toastmasters Club will continue to serve as a role-model club for the 
-                other college clubs around.
-            </p>
-            <p>
-                Toastmasters is definitely where glossophobia comes to an end. But, Toastmasters is much more than just public speaking. 
-                It is about leadership, it is about learning, it is about networking, it is about the best of life's lessons!
-            </p>
-            <p>
-                Step Up and Step Out to see what Toastmasters can do for you! 
-            </p>
-        </>
+        <p>
+            I am extremely thrilled to write to the members of NITK Toastmasters. 
+            It is amazing to see the club embrace the online meeting format, go all out during this pandemic situation, and do so much for the members.
+            We already see a lot of club members who have stepped out of the club, participated in several events hosted by Division F and our District. 
+            We also have seen several members serve the District by being a part of the extended teams of the PQD and PR. 
+            I am confident that, in the coming days, NITK Toastmasters Club will continue to serve as a role-model club for the other college clubs around.
+            
+        </p>,
+        header:"District Leaders- Past and Present"
     }
 ]
 //#endregion
@@ -372,18 +338,8 @@ export const TestimonialContent=[
             <p>
                 "I joined Toastmasters’ in March, just before the whole coronavirus pandemic. 
                 So, the majority of meets that I have attended have been online. During this period of isolation, and restricted social activity, 
-                Toastmasters’ turned out to be a blessing in disguise, especially when we had 
-                <strong> meets with clubs from other countries, and met people from different cultures.
-                </strong> Of course, considering the situation at the moment, there hasn’t been much of a call for these skills frequently, 
-                but in the few moments, that there has been a need, 
-                I have recently begun to notice a slight improvement in my communication skills, 
-                and confidence in speaking in front of a large group, as well. Before joining Toastmasters’, 
-                what piqued my interest the most about how their meets went, was the Table Topics session,
-                which is basically an impromptu speaking session. It is these sessions that have helped me the most, 
-                as most of life is spent speaking impromptu. Of course, since it hasn’t been that long since I joined, 
-                my Toastmasters' journey has just barely begun, and I can’t speak from experience on the professional front of how Toastmasters' helps. 
-                But I can positively say that Toastmasters’ will definitely <strong>enhance communication skills, weaken stage fright,
-                or any such inhibitions of the sort, and as an added bonus, introduce you to new people and cultures.</strong>",
+                <strong>Toastmasters’ turned out to be a blessing in disguise.</strong> 
+                I can positively say that Toastmasters’ will definitely enhance communication skills, weaken stage fright, or any such inhibitions of the sort, and as an added bonus, introduce you to new people and cultures."
             </p>,
             image:shan,
             header:"Hear it from our members"

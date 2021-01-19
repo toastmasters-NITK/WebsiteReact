@@ -3,7 +3,7 @@
 }
 
 .carouselMain.carousel-inner{
-    background-image: url('../images/map.png');
+    background-image: url('../images/Home/map.png');
     background-color: var(--secondary);
 }
 
