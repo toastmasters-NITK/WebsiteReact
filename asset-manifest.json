@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/WebsiteReact/static/css/main.114dc23c.chunk.css",
-    "main.js": "/WebsiteReact/static/js/main.57109d1a.chunk.js",
-    "main.js.map": "/WebsiteReact/static/js/main.57109d1a.chunk.js.map",
+    "main.js": "/WebsiteReact/static/js/main.24a8f2ea.chunk.js",
+    "main.js.map": "/WebsiteReact/static/js/main.24a8f2ea.chunk.js.map",
     "runtime-main.js": "/WebsiteReact/static/js/runtime-main.05916fb7.js",
     "runtime-main.js.map": "/WebsiteReact/static/js/runtime-main.05916fb7.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/WebsiteReact/static/css/2.20aa2d7b.chunk.css",
@@ -12,6 +12,10 @@
     "static/css/2.20aa2d7b.chunk.css.map": "/WebsiteReact/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.114dc23c.chunk.css.map": "/WebsiteReact/static/css/main.114dc23c.chunk.css.map",
     "static/js/2.8f0feed4.chunk.js.LICENSE.txt": "/WebsiteReact/static/js/2.8f0feed4.chunk.js.LICENSE.txt",
+    "static/media/Carpe Diem.270ee570.png": "/WebsiteReact/static/media/Carpe Diem.270ee570.png",
+    "static/media/From Ashes.3adcecf9.png": "/WebsiteReact/static/media/From Ashes.3adcecf9.png",
+    "static/media/Indian Culutre.a9412432.png": "/WebsiteReact/static/media/Indian Culutre.a9412432.png",
+    "static/media/Life A Voyage.101e734c.png": "/WebsiteReact/static/media/Life A Voyage.101e734c.png",
     "static/media/TM Achintya.1845040e.JPG": "/WebsiteReact/static/media/TM Achintya.1845040e.JPG",
     "static/media/TM Adithya K.f7f2e105.JPG": "/WebsiteReact/static/media/TM Adithya K.f7f2e105.JPG",
     "static/media/TM Dwija.c5dadd86.JPG": "/WebsiteReact/static/media/TM Dwija.c5dadd86.JPG",
@@ -28,6 +32,8 @@
     "static/media/TM Shankar.94a06734.jpeg": "/WebsiteReact/static/media/TM Shankar.94a06734.jpeg",
     "static/media/TM Sharan.0b710b2e.JPG": "/WebsiteReact/static/media/TM Sharan.0b710b2e.JPG",
     "static/media/TM Supritha.37d03000.jpeg": "/WebsiteReact/static/media/TM Supritha.37d03000.jpeg",
+    "static/media/Tenere.65cd5009.png": "/WebsiteReact/static/media/Tenere.65cd5009.png",
+    "static/media/Vantage.ad512ff6.png": "/WebsiteReact/static/media/Vantage.ad512ff6.png",
     "static/media/Testimonials.css": "/WebsiteReact/static/media/map.9bb69264.png",
     "static/media/navLogoUp.8a4879db.png": "/WebsiteReact/static/media/navLogoUp.8a4879db.png"
   },
@@ -36,6 +42,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.8f0feed4.chunk.js",
     "static/css/main.114dc23c.chunk.css",
-    "static/js/main.57109d1a.chunk.js"
+    "static/js/main.24a8f2ea.chunk.js"
   ]
 }
