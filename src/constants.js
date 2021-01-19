@@ -1,5 +1,17 @@
-//#region Excomm
+//#region base
 import logo from '../src/images/Navbar/navLogoUp.png';
+//#endregion
+
+//#region NewslettersImages
+import carpe from '../src/images/newsletter/Carpe Diem.png';
+import ashes from '../src/images/newsletter/From Ashes.png';
+import culture from '../src/images/newsletter/Indian Culutre.png';
+import voyage from '../src/images/newsletter/Life A Voyage.png';
+import tenere from '../src/images/newsletter/Tenere.png';
+import vantage from '../src/images/newsletter/Vantage.png';
+//#endregion
+
+//#region Excomm
 import presi from '../src/images/Ex-CommTeam/TM Supritha.jpeg';
 import vpe from '../src/images/Ex-CommTeam/TM Kartik.JPG';
 import avpe from '../src/images/Ex-CommTeam/TM Dwija.JPG';
@@ -448,39 +460,51 @@ export const NavLinkListDataAfterMedia=[
 //#region BlogData
 export const BlogCardData=[
         {
-            Title:"Blogtitle1",
-            Description:"description1",
-            url:"http://localhost:3000/",
+            Title:"Who am I?",
+            Description:"",
+            url:"https://medium.com/introduction-to-psychology/who-am-i-89f3b969e568",
             image:logo
         },
         {
-            Title:"Blogtitle2",
-            Description:"description2",
-            url:"http://localhost:3000/",
+            Title:"Is our mind really that different from our brain?",
+            Description:"",
+            url:"https://medium.com/introduction-to-psychology/is-our-mind-really-that-different-from-our-brain-c9c54a4c604b",
             image:logo
         },
         {
-            Title:"Blogtitle3",
-            Description:"description3",
-            url:"http://localhost:3000/",
+            Title:"Language and the Human Mind.",
+            Description:"",
+            url:"https://medium.com/introduction-to-psychology/language-and-the-human-mind-12ac903da543",
             image:logo
         },
         {
-            Title:"Blogtitle4",
-            Description:"description4",
-            url:"http://localhost:3000/",
+            Title:"The Misinformation Effect",
+            Description:"",
+            url:"https://medium.com/introduction-to-psychology/the-misinformation-effect-7199e8bb011c",
             image:logo
         },
         {
-            Title:"Blogtitle5",
-            Description:"description5",
-            url:"http://localhost:3000/",
+            Title:"Parenting: Myth or Reality?",
+            Description:"",
+            url:"https://medium.com/introduction-to-psychology/parenting-myth-or-reality-e858639f3a29",
             image:logo
         },
         {
-            Title:"Blogtitle6",
-            Description:"description6",
-            url:"http://localhost:3000/",
+            Title:"Don't Get Attached",
+            Description:"",
+            url:"https://medium.com/introduction-to-psychology/dont-get-attached-4cd953f216cd",
+            image:logo
+        },
+        {
+            Title:"Stereotype Threat",
+            Description:"",
+            url:"https://medium.com/@katrick2000/stereotype-threat-be1153eee58d",
+            image:logo
+        },
+        {
+            Title:"The Milgram Experiment",
+            Description:"",
+            url:"https://medium.com/@katrick2000/the-milgram-experiment-320034809925",
             image:logo
         }
 ];
@@ -489,40 +513,40 @@ export const BlogCardData=[
 //#region NewsletterData
 export const NewsletterData=[
     {
-        Title:"Newslettertitle1",
-        Description:"description1",
-        url:"http://localhost:3000/",
-        image:logo
+        Title:"Life- A Voyage",
+        Description:"Dec 2018",
+        url:"https://drive.google.com/file/d/1I9NOqegnPgqFHArHSRMTrwD84CeUTAch/view?usp=sharing",
+        image:voyage
     },
     {
-        Title:"Newslettertitle2",
-        Description:"description2",
-        url:"http://localhost:3000/",
-        image:logo
+        Title:"Indian Culture- A Kaleidoscope",
+        Description:"Mar 2019",
+        url:"https://drive.google.com/file/d/1u2RCTwju5LAYQvLHZihMO6SgBwi8QNMw/view?usp=sharing",
+        image:culture
     },
     {
-        Title:"Newslettertitle3",
-        Description:"description3",
-        url:"http://localhost:3000/",
-        image:logo
+        Title:"Vantage",
+        Description:"Jun 2020",
+        url:"https://drive.google.com/file/d/1qoTKhqFL6Hr-T4AXbAObRO9yK4jRTXWT/view?usp=sharing",
+        image:vantage
     },
     {
-        Title:"Newslettertitle4",
-        Description:"description4",
-        url:"http://localhost:3000/",
-        image:logo
+        Title:"Tenere",
+        Description:"Jan 2020",
+        url:"https://drive.google.com/file/d/1ONvZHMiUTglyPbZMA6dNNsLcwhYJRTgb/view?usp=sharing",
+        image:tenere
     },
     {
-        Title:"Newslettertitle5",
-        Description:"description5",
-        url:"http://localhost:3000/",
-        image:logo
+        Title:"Carpe Diem",
+        Description:"Apr 2020",
+        url:"https://drive.google.com/file/d/1N1_oBTRGd3XavLMp8uqFWM2D03AAux3o/view?usp=sharing",
+        image:carpe
     },
     {
-        Title:"Newslettertitle6",
-        Description:"description6",
-        url:"http://localhost:3000/",
-        image:logo
+        Title:"From Ashes",
+        Description:"Dec 2020",
+        url:"https://drive.google.com/file/d/15wPlqjpt_t7fFmRa7nPFgcNnr9erIWtx/view?usp=sharing",
+        image:ashes
 }];
 //#endregion
 
