@@ -11,6 +11,17 @@ import tenere from '../src/images/newsletter/Tenere.png';
 import vantage from '../src/images/newsletter/Vantage.png';
 //#endregion
 
+//#region PodcastImages
+import ISBYLP from '../src/images/podcasts/ISBYLP.jpg';
+import MIM from '../src/images/podcasts/MIM.jpg';
+import financeRoute from '../src/images/podcasts/finance-route.jpg';
+import MBA from '../src/images/podcasts/MBA.jpg';
+import retail from  '../src/images/podcasts/retail-revolution.jpg';
+import healthcareAI from '../src/images/podcasts/healthcare-ai.jpg';
+import tech from '../src/images/podcasts/technology.jpg';
+import brilliance from '../src/images/podcasts/brilliance.jpg';
+//#endregion
+
 //#region Excomm
 import presi from '../src/images/Ex-CommTeam/TM Supritha.jpeg';
 import vpe from '../src/images/Ex-CommTeam/TM Kartik.JPG';
@@ -553,41 +564,54 @@ export const NewsletterData=[
 //#region PodcastData
 export const PodCastData=[
     {
-        Title:"Podcasttitle1",
-        Description:"description1",
-        url:"http://localhost:3000/",
-        image:logo
+        Title:"Exploring ISB YLP",
+        Description:"",
+        url:"https://open.spotify.com/episode/0qN2ngeeiVmq6aytqllFCB?si=ZbfT2s4zR9-xm9KhcPV-zw",
+        image:ISBYLP
     },
     {
-        Title:"Podcasttitle2",
-        Description:"description2",
-        url:"http://localhost:3000/",
-        image:logo
+        Title:"Cracking the MiM Mystery",
+        Description:"",
+        url:"https://open.spotify.com/episode/1nRMxLD3MdXisuJDHnah38?si=fiyR_qb4RLSww3z7R9ApDg",
+        image:MIM
     },
     {
-        Title:"Podcasttitle3",
-        Description:"description3",
-        url:"http://localhost:3000/",
-        image:logo
+        Title:"The Finance Route",
+        Description:"",
+        url:"https://open.spotify.com/episode/52nEAGjCCcGKslwFkK7gCS?si=ylS9iIPfTOiAJfE555xk3A/",
+        image:financeRoute
     },
     {
-        Title:"Podcasttitle4",
-        Description:"description4",
-        url:"http://localhost:3000/",
-        image:logo
+        Title:"Demystifying MBA Abroad",
+        Description:"",
+        url:"https://open.spotify.com/episode/5ZAYuvKvhcKY9RdbCqS50D?si=XV-TIJrWTZignLw2bJ3r1g",
+        image:MBA
     },
     {
-        Title:"Podcasttitle5",
-        Description:"description5",
-        url:"http://localhost:3000/",
-        image:logo
+        Title:"The Retail Revolution",
+        Description:"",
+        url:"https://open.spotify.com/episode/6OiFpVezcIKzTXvjcHUCX8?si=CIqRevmmS_2padbaMTtghQ",
+        image:retail
     },
     {
-        Title:"Podcasttitle6",
-        Description:"description6",
-        url:"http://localhost:3000/",
-        image:logo
-}];
+        Title:"Powering healthcare through AI",
+        Description:"",
+        url:"https://open.spotify.com/episode/4uRbRMDGS2u8iifVsV96q6?si=fi_vwe6nQzmE3V7Z0tunQg",
+        image:healthcareAI
+    },
+    {
+        Title:"The World of Technology",
+        Description:"",
+        url:"https://open.spotify.com/episode/2HTITDTQ3PKxWK520gtxaT?si=nCSYAocgTwSSPZXXE0GxnQ",
+        image:tech
+    },
+    {
+        Title:"Behind the Brilliance",
+        Description:"",
+        url:"https://open.spotify.com/episode/6FRPiga5QRWuzxS2b3abJb?si=41ettFn5RjuYlHEzs5uCGA",
+        image:brilliance
+    }
+];
 //#endregion
 
 //#region ResourceData
