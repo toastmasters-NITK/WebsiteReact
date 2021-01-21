@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/WebsiteReact/static/css/main.114dc23c.chunk.css",
-    "main.js": "/WebsiteReact/static/js/main.1e999e81.chunk.js",
-    "main.js.map": "/WebsiteReact/static/js/main.1e999e81.chunk.js.map",
+    "main.css": "/WebsiteReact/static/css/main.23c22e77.chunk.css",
+    "main.js": "/WebsiteReact/static/js/main.b0b5ce04.chunk.js",
+    "main.js.map": "/WebsiteReact/static/js/main.b0b5ce04.chunk.js.map",
     "runtime-main.js": "/WebsiteReact/static/js/runtime-main.05916fb7.js",
     "runtime-main.js.map": "/WebsiteReact/static/js/runtime-main.05916fb7.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/WebsiteReact/static/css/2.20aa2d7b.chunk.css",
@@ -10,12 +10,17 @@
     "static/js/2.8f0feed4.chunk.js.map": "/WebsiteReact/static/js/2.8f0feed4.chunk.js.map",
     "index.html": "/WebsiteReact/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/WebsiteReact/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.114dc23c.chunk.css.map": "/WebsiteReact/static/css/main.114dc23c.chunk.css.map",
+    "static/css/main.23c22e77.chunk.css.map": "/WebsiteReact/static/css/main.23c22e77.chunk.css.map",
     "static/js/2.8f0feed4.chunk.js.LICENSE.txt": "/WebsiteReact/static/js/2.8f0feed4.chunk.js.LICENSE.txt",
+    "static/media/CFC - 2.ac9543d8.png": "/WebsiteReact/static/media/CFC - 2.ac9543d8.png",
+    "static/media/CFC - 4.459acd83.png": "/WebsiteReact/static/media/CFC - 4.459acd83.png",
+    "static/media/CFC - 5.def17b89.png": "/WebsiteReact/static/media/CFC - 5.def17b89.png",
     "static/media/Carpe Diem.270ee570.png": "/WebsiteReact/static/media/Carpe Diem.270ee570.png",
     "static/media/From Ashes.3adcecf9.png": "/WebsiteReact/static/media/From Ashes.3adcecf9.png",
     "static/media/ISBYLP.2295bc14.jpg": "/WebsiteReact/static/media/ISBYLP.2295bc14.jpg",
     "static/media/Indian Culutre.a9412432.png": "/WebsiteReact/static/media/Indian Culutre.a9412432.png",
+    "static/media/Installation.168fde67.png": "/WebsiteReact/static/media/Installation.168fde67.png",
+    "static/media/KartikBlog.ef7b32b9.jpeg": "/WebsiteReact/static/media/KartikBlog.ef7b32b9.jpeg",
     "static/media/Life A Voyage.101e734c.png": "/WebsiteReact/static/media/Life A Voyage.101e734c.png",
     "static/media/MBA.77afa5e3.jpg": "/WebsiteReact/static/media/MBA.77afa5e3.jpg",
     "static/media/MIM.09f37fb8.jpg": "/WebsiteReact/static/media/MIM.09f37fb8.jpg",
@@ -49,7 +54,7 @@
     "static/js/runtime-main.05916fb7.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.8f0feed4.chunk.js",
-    "static/css/main.114dc23c.chunk.css",
-    "static/js/main.1e999e81.chunk.js"
+    "static/css/main.23c22e77.chunk.css",
+    "static/js/main.b0b5ce04.chunk.js"
   ]
 }
