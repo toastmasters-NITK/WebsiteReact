@@ -10,3 +10,7 @@
 .card .btn-primary:focus{
     box-shadow: none !important;
 }
+
+.card img{
+    max-height: 430px;
+}

@@ -11,6 +11,16 @@ import tenere from '../src/images/newsletter/Tenere.png';
 import vantage from '../src/images/newsletter/Vantage.png';
 //#endregion
 
+//#region BlogPics
+import kartikBlog from '../src/images/blogs/KartikBlog.jpeg';
+//#endregion
+
+//#region EventPics
+import CFC2 from '../src/images/events/drive-download-20210121T082531Z-001/CFC - 2.png';
+import CFC4 from '../src/images/events/drive-download-20210121T082531Z-001/CFC - 4.png';
+import CFC5 from '../src/images/events/drive-download-20210121T082531Z-001/CFC - 5.png';
+import installation from '../src/images/events/drive-download-20210121T082531Z-001/Installation.png';
+//#endregion
 //#region PodcastImages
 import ISBYLP from '../src/images/podcasts/ISBYLP.jpg';
 import MIM from '../src/images/podcasts/MIM.jpg';
@@ -408,30 +418,36 @@ export const EventCardData=
     filterProperty:"filterProp",
     data:[
     {
-        Title:"Eventtitle2",
-        Description:"description2",
-        url:"http://localhost:3000/",
-        image:logo,
+        Title:"Installation 2020",
+        Description:"17-07-2020",
+        url:"https://drive.google.com/file/d/1wPKOgGRorDO4XyeDjZx54mopXh8OnOd3/view?usp=sharing",
+        image:installation,
         filterProp:"previous"
     },
     {
-        Title:"Eventtitle3",
-        Description:"description3",
-        url:"http://localhost:3000/",
-        image:logo,
-        filterProp:"upcoming"
-    },
-    {
-        Title:"Eventtitle5",
-        Description:"description2",
-        url:"http://localhost:3000/",
-        image:logo,
+        Title:"Communication for Career 2",
+        Description:"10-05-2020",
+        url:"https://drive.google.com/drive/folders/19cUbklC5Qy2Rk6e3C1oP7uInyCbKHpTn?usp=sharing",
+        image:CFC2,
         filterProp:"previous"
     },
     {
-        Title:"Eventtitle6",
-        Description:"description3",
-        url:"http://localhost:3000/",
+        Title:"Communication for Career 4",
+        Description:"23-08-2020",
+        url:"https://drive.google.com/drive/folders/1pBCs6IJYHSGGgEiIvrfgHKOA5CMLVq03?usp=sharing",
+        image:CFC4,
+        filterProp:"previous"
+    },
+    {
+        Title:"Communication for Career 5",
+        Description:"19-12-2020",
+        url:"https://drive.google.com/drive/folders/1QI1LGoc3enDMnVmJHyr7L596qDXAonZ9?usp=sharing",
+        image:CFC5,
+        filterProp:"previous"
+    },
+    {
+        Title:"Orientation meet",
+        Description:"28-01-2021",
         image:logo,
         filterProp:"upcoming"
     }
@@ -474,49 +490,49 @@ export const BlogCardData=[
             Title:"Who am I?",
             Description:"",
             url:"https://medium.com/introduction-to-psychology/who-am-i-89f3b969e568",
-            image:logo
+            image:kartikBlog
         },
         {
             Title:"Is our mind really that different from our brain?",
             Description:"",
             url:"https://medium.com/introduction-to-psychology/is-our-mind-really-that-different-from-our-brain-c9c54a4c604b",
-            image:logo
+            image:kartikBlog
         },
         {
             Title:"Language and the Human Mind.",
             Description:"",
             url:"https://medium.com/introduction-to-psychology/language-and-the-human-mind-12ac903da543",
-            image:logo
+            image:kartikBlog
         },
         {
             Title:"The Misinformation Effect",
             Description:"",
             url:"https://medium.com/introduction-to-psychology/the-misinformation-effect-7199e8bb011c",
-            image:logo
+            image:kartikBlog
         },
         {
             Title:"Parenting: Myth or Reality?",
             Description:"",
             url:"https://medium.com/introduction-to-psychology/parenting-myth-or-reality-e858639f3a29",
-            image:logo
+            image:kartikBlog
         },
         {
             Title:"Don't Get Attached",
             Description:"",
             url:"https://medium.com/introduction-to-psychology/dont-get-attached-4cd953f216cd",
-            image:logo
+            image:kartikBlog
         },
         {
             Title:"Stereotype Threat",
             Description:"",
             url:"https://medium.com/@katrick2000/stereotype-threat-be1153eee58d",
-            image:logo
+            image:kartikBlog
         },
         {
             Title:"The Milgram Experiment",
             Description:"",
             url:"https://medium.com/@katrick2000/the-milgram-experiment-320034809925",
-            image:logo
+            image:kartikBlog
         }
 ];
 //#endregion
