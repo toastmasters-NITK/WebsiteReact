@@ -17,7 +17,6 @@ class Footer extends React.Component{
     }
 
     render(){
-        console.log(this.state.mailBody);
         return(
             <footer className="bg-dark footer-section">
                 <div className="section">

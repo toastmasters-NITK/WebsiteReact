@@ -16,20 +16,20 @@ class Card extends React.Component{
 
     render(){
         const UrlSection=this.props.url!==undefined?(
-                <a href={this.props.url} target="_blank" class="btn btn-xs btn-primary">
+                <a href={this.props.url} target="_blank" className="btn btn-xs btn-primary">
                     Read More
                 </a>
             ):null;
         return(
-            <div class="col-lg-4 col-sm-6 mb-4" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
+            <div className="col-lg-4 col-sm-6 mb-4" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
                 <article>
                     <div className={this.state.cardClass}>
-                        <img class="rounded card-img-top" src={this.props.img}/>
-                        <div class="card-body">
-                            <h4 class="card-title"> 
+                        <img className="rounded card-img-top" src={this.props.img}/>
+                        <div className="card-body">
+                            <h4 className="card-title"> 
                                 {this.props.title}
                             </h4>
-                            <p class="card-text">
+                            <p className="card-text">
                                 {this.props.desc}
                             </p>
                             {UrlSection}
